@@ -4,6 +4,7 @@
 - [Kulkarni1999](https://ieeexplore.ieee.org/document/7299068) Picture: A Probabilistic Programming Language for Scene Perception
 - [Pfeffer2005](https://dash.harvard.edu/handle/1/25105000) The Design and Implementation of IBAL: A General-Purpose Probabilistic Language
 - [Lunn2009](https://onlinelibrary.wiley.com/doi/10.1002/sim.3680) The Bugs Project: Evolution, Critique and Future Directions
+- [Mansingkha2014](https://arxiv.org/abs/1404.0099) Venture: a higher-order probabilistic programming platform with programmable inference
 - [Perov2015](https://arxiv.org/pdf/1606.00075.pdf) Applications of Probabilistic Programming
 - [Perov2016](https://link.springer.com/chapter/10.1007/978-3-319-41649-6_27) Automatic Sampler Discovery via Probabilistic Programming and Approximate Bayesian Computation
 - [Tolpin2016](https://arxiv.org/abs/1608.05263) Design and Implementation of Probabilistic Programming Language Anglican
@@ -22,6 +23,7 @@
 - Michael Betancourt - [Some Bayesian Modeling Techniques in Stan](https://www.youtube.com/watch?v=VnNdhsm0rJQ) 
 - Michael Betancourt - [Scalable Bayesian Inference with Hamiltonian Monte Carlo](https://www.youtube.com/watch?v=VnNdhsm0rJQ)
 - Andrew Gelman - [Introduction to Bayesian Data Analysis and Stan](https://www.youtube.com/watch?v=T1gYvX5c2sM)
+- [StanCon](https://www.youtube.com/playlist?list=PLCrWEzJgSUqzI3goQEAKkDsHg72inmqbe)
 ### Podcasts
 - [The Talking Machines](https://www.thetalkingmachines.com/episodes/anglican-and-probabilistic-programming) ANGLICAN and Probabilistic Programming
 - [The Talking Machines](https://www.thetalkingmachines.com/episodes/probabilistic-programming-and-digital-humanities) Probabilistic Programming and Digital Humanities
@@ -37,9 +39,10 @@
 - [Duane1987](https://www.sciencedirect.com/science/article/abs/pii/037026938791197X) Hybrid Monte Carlo
 - [Hoffman2011](https://arxiv.org/abs/1111.4246) The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo
 - [Betancourt2017](https://arxiv.org/abs/1701.02434) A conceptual introduction to Hamiltonian Monte Carlo
-
 # Validation
-- [Sargent2011](https://link.springer.com/article/10.1057/jos.2012.20) Verification and Validation of Simulation Models 
+- [Sargent2011](https://link.springer.com/article/10.1057/jos.2012.20) Verification and Validation of Simulation Models
+- [Sargent2015](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7408153) Use of the Interval Statistical Procedure for Simulation Model Validation 
+- [Kumar2019](https://joss.theoj.org/papers/10.21105/joss.01143) ArviZ a unified library for exploratory analysis of Bayesian models in Python
 ## Information Criteria
 - [Watanabe10a](https://www.jmlr.org/papers/volume11/watanabe10a/watanabe10a.pdf) Asymptotic Equivalence of Bayes Cross Validation and Widely Applicable Information Criterion in Singular Learning Theory
 - [Vehtari2015](https://arxiv.org/abs/1507.04544) Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC
@@ -53,10 +56,12 @@ With Implementation Via Sampling-Based Methods
 - [Collins2014](https://pubmed.ncbi.nlm.nih.gov/24645774/) External Validation of Multivariable Prediction
 Models: A Systematic Review of Methodological Conduct and Reporting
 ## Model Debugging
-
-
 # Probabilistic Graphical Models
-
+- [Pearl1988](https://dl.acm.org/doi/book/10.5555/534975) Probabilistic Reasoning in Intelligent Reasoning
+- [Pear2000](https://ftp.cs.ucla.edu/pub/stat_ser/r277.pdf) Bayesian Networks
+- [Pitchforth2013](https://www.journals.elsevier.com/expert-systems-with-applications) Expert Systems with Applications
+- [Frey2003](https://arxiv.org/abs/1212.2486) Extending Factor Graphs so as to Unify Graphical Models
+- [Jordan2004](https://projecteuclid.org/euclid.ss/1089808279) Graphical Models
 # Other Resources
 
 
