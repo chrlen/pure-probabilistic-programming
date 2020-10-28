@@ -28,18 +28,9 @@
 - [The Talking Machines](https://www.thetalkingmachines.com/episodes/anglican-and-probabilistic-programming) ANGLICAN and Probabilistic Programming
 - [The Talking Machines](https://www.thetalkingmachines.com/episodes/probabilistic-programming-and-digital-humanities) Probabilistic Programming and Digital Humanities
 
-# Inference
-## Exact
-## Approximate
-### Importance Sampling
-### Hybrids
-### Metropolis based Methods
-### Gibb's sampling
-### Monte Carlo Methods
-- [Duane1987](https://www.sciencedirect.com/science/article/abs/pii/037026938791197X) Hybrid Monte Carlo
-- [Hoffman2011](https://arxiv.org/abs/1111.4246) The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo
-- [Betancourt2017](https://arxiv.org/abs/1701.02434) A conceptual introduction to Hamiltonian Monte Carlo
 # Validation
+## Verification and Validation of Simulation Models
+- [Thacker2004](https://inis.iaea.org/search/search.aspx?orig_q=RN:36030870) Concepts of Model Verification and Validation
 - [Sargent2011](https://link.springer.com/article/10.1057/jos.2012.20) Verification and Validation of Simulation Models
 - [Sargent2015](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7408153) Use of the Interval Statistical Procedure for Simulation Model Validation 
 - [Kumar2019](https://joss.theoj.org/papers/10.21105/joss.01143) ArviZ a unified library for exploratory analysis of Bayesian models in Python
@@ -63,5 +54,14 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [Frey2003](https://arxiv.org/abs/1212.2486) Extending Factor Graphs so as to Unify Graphical Models
 - [Jordan2004](https://projecteuclid.org/euclid.ss/1089808279) Graphical Models
 # Other Resources
-
-
+# Inference
+## Exact
+## Approximate
+### Importance Sampling
+### Hybrids
+### Metropolis based Methods
+### Gibb's sampling
+### Monte Carlo Methods
+- [Duane1987](https://www.sciencedirect.com/science/article/abs/pii/037026938791197X) Hybrid Monte Carlo
+- [Hoffman2011](https://arxiv.org/abs/1111.4246) The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo
+- [Betancourt2017](https://arxiv.org/abs/1701.02434) A conceptual introduction to Hamiltonian Monte Carlo
