@@ -40,7 +40,8 @@
 - [Gabry2019](https://arxiv.org/abs/1709.01449) Visualization in Bayesian workflow
 - [Seth2018](https://arxiv.org/aibs/1711.04674) Model Criticism in latent space 
 - [Ohagan2001]() HSSS Model Criticism
-- [Lloyd](http://papers.nips.cc/paper/5657-statistical-model-criticism-using-kernel-two-sample-tests.pdf) Statistical Model Criticismusing Kernel Two Sample Tests
+- [Lloyd2015](http://papers.nips.cc/paper/5657-statistical-model-criticism-using-kernel-two-sample-tests.pdf) Statistical Model Criticism using Kernel Two Sample Tests
+- [Vehtari2019](https://arxiv.org/abs/1903.08008) Rank-normalization, folding, and localization: An improved Rˆ for assessing convergence of MCMC
 ## Verification and Validation of Simulation Models
 - [Thacker2004](https://inis.iaea.org/search/search.aspx?orig_q=RN:36030870) Concepts of Model Verification and Validation
 - [Sargent2011](https://link.springer.com/article/10.1057/jos.2012.20) Verification and Validation of Simulation Models
@@ -68,6 +69,7 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 ## Frameworks and libraries
 - [Kumar2019](https://joss.theoj.org/papers/10.21105/joss.01143) ArviZ is a unified library for exploratory analysis of Bayesian models in Python
 - [Bayesplot](https://mc-stan.org/bayesplot) is an R package providing an extensive library of plotting functions for use after fitting Bayesian models (typically with MCMC)
+
 
 ## Other Resources
 ### Blogs
