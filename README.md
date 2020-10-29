@@ -16,6 +16,7 @@
 - [Tran2017](https://arxiv.org/abs/1701.03757) Deep Probabilistic Programming
 - [Baudart2018](https://arxiv.org/abs/1804.06458) Deep Probabilistic Programming Languages: A Qualitative Study
 - [Baydin2019](https://arxiv.org/abs/1907.03382) Etalumis: Bringing Probabilistic Programming to Scientific Simulators at Scale
+- [Anikwue2019](https://ieeexplore.ieee.org/abstract/document/8851053) Probabilistic Programming in Big Data
 ### Applications
 - [Jacobs2016](https://www.sciencedirect.com/science/article/pii/S0140673615012246) Ovarian cancer screening and mortality in the UK Collaborative Trial of Ovarian Cancer Screening (UKCTOCS): a randomised controlled trial (STAN)
 - [Greiner2016](https://iopscience.iop.org/article/10.3847/2041-8205/827/2/L38) On The Fermi-GBM Event 0.4 s after GW150914 (PyMC3)
@@ -37,10 +38,12 @@
 - [The Talking Machines](https://www.thetalkingmachines.com/episodes/probabilistic-programming-and-digital-humanities) Probabilistic Programming and Digital Humanities
 
 # Validation
-- [Gabry2019](https://arxiv.org/abs/1709.01449) Visualization in Bayesian workflow
-- [Seth2018](https://arxiv.org/aibs/1711.04674) Model Criticism in latent space 
-- [Ohagan2001]() HSSS Model Criticism
+- [Gneiting2007](https://apps.dtic.mil/sti/pdfs/ADA454828.pdf) Strictly Proper Scoring Rules, Prediction, and Estimation
+- [Ohagan2003](http://www.tonyohagan.co.uk/academic/pub.html) HSSS Model Criticism
+- [Bayarri2007](https://www.jstor.org/stable/27645837?seq=1#metadata_info_tab_contents) Bayesian Checking of the Second Levels of Hierarchical Models
 - [Lloyd2015](http://papers.nips.cc/paper/5657-statistical-model-criticism-using-kernel-two-sample-tests.pdf) Statistical Model Criticism using Kernel Two Sample Tests
+- [Seth2018](https://arxiv.org/aibs/1711.04674) Model Criticism in latent space 
+- [Gabry2019](https://arxiv.org/abs/1709.01449) Visualization in Bayesian workflow
 - [Vehtari2019](https://arxiv.org/abs/1903.08008) Rank-normalization, folding, and localization: An improved Rˆ for assessing convergence of MCMC
 ## Verification and Validation of Simulation Models
 - [Thacker2004](https://inis.iaea.org/search/search.aspx?orig_q=RN:36030870) Concepts of Model Verification and Validation
@@ -57,7 +60,7 @@
 - [Gelman2013](https://link.springer.com/article/10.1007/s11222-013-9416-2) Understanding predictive information criteria for Bayesian models
 - [Vehtari2015](https://arxiv.org/abs/1507.04544) Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC
 ## Sensitivity Analysis
-- [Korb2010](https://bayesian-intelligence.com/publications/bai/) Bayesian Artificial Intelligence
+- [Korb2010](https://bayesian-intelligence.com/publications/bai/) Bayesian Artificial Intelligence (Ch. 10)
 - [Coupe2000](https://repub.eur.nl/pub/20452) Sensitivity Analysis of Decision-Theoretic Networks
 ## Posterior Predictive Checks
 - [Gelman1996](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.9951) Posterior Predictive Assessment of Model Fitness Via Realized Discrepancies
@@ -70,12 +73,19 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [Kumar2019](https://joss.theoj.org/papers/10.21105/joss.01143) ArviZ is a unified library for exploratory analysis of Bayesian models in Python
 - [Bayesplot](https://mc-stan.org/bayesplot) is an R package providing an extensive library of plotting functions for use after fitting Bayesian models (typically with MCMC)
 
-
 ## Other Resources
 ### Blogs
+[Oriol Unraveled](https://oriolabril.github.io/oriol_unraveled/blog/)
 ### Talks
 
 # Modelling
+## Papers
+[Gelman2002](http://www.stat.columbia.edu/~gelman/research/published/p039-_o.pdf) Prior Distribution
+[Gelman2004](http://www.stat.columbia.edu/~gelman/research/published/parameterization.pdf) Parameterization and Bayesian Modelling
+[Gelman2017](https://arxiv.org/abs/1708.07487) The Prior can generally only be understood in the context of the likelihood
+## Books
+- [Gelman2013a](http://www.stat.columbia.edu/~gelman/book/) Bayesian Data Analysis
+## Other Resources
 
 # Probabilistic Graphical Models
 ## Papers
@@ -86,10 +96,14 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [Jordan2004](https://projecteuclid.org/euclid.ss/1089808279) Graphical Models
 ## Books
 
-# Other Resources
+## Other Resources
+
+
+
 # Inference
-## Exact
-## Approximate
+## Papers
+### Exact
+### Approximate
 ### Importance Sampling
 ### Hybrids
 ### Metropolis based Methods
@@ -98,3 +112,4 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [Duane1987](https://www.sciencedirect.com/science/article/abs/pii/037026938791197X) Hybrid Monte Carlo
 - [Hoffman2011](https://arxiv.org/abs/1111.4246) The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo
 - [Betancourt2017](https://arxiv.org/abs/1701.02434) A conceptual introduction to Hamiltonian Monte Carlo
+## Books
