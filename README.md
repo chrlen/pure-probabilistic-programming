@@ -5,6 +5,7 @@
 - [Pfeffer2005](https://dash.harvard.edu/handle/1/25105000) The Design and Implementation of IBAL: A General-Purpose Probabilistic Language
 - [Lunn2009](https://onlinelibrary.wiley.com/doi/10.1002/sim.3680) The Bugs Project: Evolution, Critique and Future Directions
 - [Mansingkha2014](https://arxiv.org/abs/1404.0099) Venture: a higher-order probabilistic programming platform with programmable inference
+- [Gaunt2016](https://arxiv.org/abs/1608.04428) TerpreT: A Probabilistic Programming Language for Program Induction
 - [Perov2015](https://arxiv.org/pdf/1606.00075.pdf) Applications of Probabilistic Programming
 - [Perov2016](https://link.springer.com/chapter/10.1007/978-3-319-41649-6_27) Automatic Sampler Discovery via Probabilistic Programming and Approximate Bayesian Computation
 - [Tolpin2016](https://arxiv.org/abs/1608.05263) Design and Implementation of Probabilistic Programming Language Anglican
@@ -16,7 +17,11 @@
 - [VanDeMeent2018](https://arxiv.org/abs/1809.10756) An Introduction to Probabilistic Programming
 - [Baydin2019](https://arxiv.org/abs/1907.03382) Etalumis: Bringing Probabilistic Programming to Scientific Simulators at Scale
 ## Applications
+- [Jacobs2016](https://www.sciencedirect.com/science/article/pii/S0140673615012246) Ovarian cancer screening and mortality in the UK Collaborative Trial of Ovarian Cancer Screening (UKCTOCS): a randomised controlled trial (STAN)
 - [Greiner2016](https://iopscience.iop.org/article/10.3847/2041-8205/827/2/L38) On The Fermi-GBM Event 0.4 s after GW150914 (PyMC3)
+- [Becker2017](https://www.nature.com/articles/nature22038?_ga=2.84803610.2002036390.1539216000-1369394852.1539216000) Therapeutic reduction of ataxin-2 extends lifespan and reduces pathology in TDP-43 mice (STAN)
+- [Miller2017](https://www.nature.com/articles/nn.4613.pdf?origin=ppub) Dorsal hippocampus contributes to model-based planning (STAN)
+- [Svenson2017](https://www.nature.com/articles/nmeth.4220) Power analysis of single-cell RNA-sequencing experiments (STAN)
 - [Graham2018](https://www.nature.com/articles/s41586-018-0202-3) Seabirds Enhance Coral Reef Productivity (PyMC3)
 ## Other Resources
 ### Talks
