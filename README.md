@@ -38,13 +38,22 @@
 
 # Validation
 - [Gabry2019](https://arxiv.org/abs/1709.01449) Visualization in Bayesian workflow
-- [Seth2018](https://arxiv.org/abs/1711.04674) Model Criticism in latent space 
+- [Seth2018](https://arxiv.org/aibs/1711.04674) Model Criticism in latent space 
+- [Ohagan2001]() HSSS Model Criticism
+- [Lloyd](http://papers.nips.cc/paper/5657-statistical-model-criticism-using-kernel-two-sample-tests.pdf) Statistical Model Criticismusing Kernel Two Sample Tests
 ## Verification and Validation of Simulation Models
 - [Thacker2004](https://inis.iaea.org/search/search.aspx?orig_q=RN:36030870) Concepts of Model Verification and Validation
 - [Sargent2011](https://link.springer.com/article/10.1057/jos.2012.20) Verification and Validation of Simulation Models
 - [Sargent2015](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7408153) Use of the Interval Statistical Procedure for Simulation Model Validation 
 ## Information Criteria
-- [Watanabe10a](https://www.jmlr.org/papers/volume11/watanabe10a/watanabe10a.pdf) Asymptotic Equivalence of Bayes Cross Validation and Widely Applicable Information Criterion in Singular Learning Theory
+- [Akaike1973](https://link.springer.com/chapter/10.1007/978-1-4612-1694-0_15) Information Theory and an Extension of the Maximum Likelihood Principle
+- [Stone1977](https://link.springer.com/article/10.1007/s11222-013-9416-2#ref-CR35) An asymptotic equivalence of choice of model cross-validation and Akaike’s criterion
+- [Vehtari2002](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.16.6298&rep=rep1&type=pdf) Bayesian Model Assessment and Comparison UsingCross-Validation Predictive Densities
+- [Spiegelhalter2002](https://rss.onlinelibrary.wiley.com/doi/pdf/10.1111/1467-9868.00353) Bayesian measures of model complexity and fit
+- [Watanabe2010a](https://www.jmlr.org/papers/volume11/watanabe10a/watanabe10a.pdf) Asymptotic Equivalence of Bayes Cross Validation and Widely Applicable Information Criterion in Singular Learning Theory
+- [Vehtari2012](https://projecteuclid.org/euclid.ssu/1356628931) A survey of Bayesian predictive methods for model assessment, selection and comparison.
+- [Watanabe2013](https://link.springer.com/article/10.1007/s11222-013-9416-2#ref-CR35) A widely applicable Bayesian information criterion
+- [Gelman2013](https://link.springer.com/article/10.1007/s11222-013-9416-2) Understanding predictive information criteria for Bayesian models
 - [Vehtari2015](https://arxiv.org/abs/1507.04544) Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC
 ## Sensitivity Analysis
 - [Korb2010](https://bayesian-intelligence.com/publications/bai/) Bayesian Artificial Intelligence
