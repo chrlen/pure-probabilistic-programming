@@ -1,3 +1,10 @@
+
+
+1. [Probabilistic Programming](#probabilistic-programming)
+1. [Validation](#validation)
+1. [Probabilistic Modelling](#probabilistic-modelling)
+1. [Probabilistic Graphical Models](#probabilistic-graphical-models)
+
 # Probabilistic Programming
 ## Papers
 - [Thomas1992]() Bayesian Inference using Gibbs Sampling
@@ -78,7 +85,7 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 [Oriol Unraveled](https://oriolabril.github.io/oriol_unraveled/blog/)
 ### Talks
 
-# Modelling
+# Probabilistic Modelling
 ## Papers
 [Gelman2002](http://www.stat.columbia.edu/~gelman/research/published/p039-_o.pdf) Prior Distribution
 [Gelman2004](http://www.stat.columbia.edu/~gelman/research/published/parameterization.pdf) Parameterization and Bayesian Modelling
@@ -97,8 +104,6 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 ## Books
 
 ## Other Resources
-
-
 
 # Inference
 ## Papers
