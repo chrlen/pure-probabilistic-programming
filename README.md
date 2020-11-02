@@ -31,6 +31,10 @@
 - [Miller2017](https://www.nature.com/articles/nn.4613.pdf?origin=ppub) Dorsal hippocampus contributes to model-based planning (STAN)
 - [Svenson2017](https://www.nature.com/articles/nmeth.4220) Power analysis of single-cell RNA-sequencing experiments (STAN)
 - [Graham2018](https://www.nature.com/articles/s41586-018-0202-3) Seabirds Enhance Coral Reef Productivity (PyMC3)
+- [Dehning2020](https://science.sciencemag.org/content/369/6500/eabb9789/tab-article-info) Inferring change points in the spread of COVID-19 reveals the effectiveness of interventions (PyMC3)
+    - [Talk at PyMCon 2020](https://www.youtube.com/watch?v=btHkSlePV5Q&feature=youtu.be)
+
+- [Brauner2020](https://www.medrxiv.org/content/10.1101/2020.05.28.20116129v4) The effectiveness of eight nonpharmaceutical interventions against COVID-19 in 41 countries (PyMC3)
 ## Books
 - [VanDeMeent2018](https://arxiv.org/abs/1809.10756) An Introduction to Probabilistic Programming
 - [Pilon2015](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) Probabilistic Programming and Bayesian Methods for Hackers
@@ -39,6 +43,8 @@
 - Michael Betancourt - [Some Bayesian Modeling Techniques in Stan](https://www.youtube.com/watch?v=VnNdhsm0rJQ) 
 - Michael Betancourt - [Scalable Bayesian Inference with Hamiltonian Monte Carlo](https://www.youtube.com/watch?v=VnNdhsm0rJQ)
 - Andrew Gelman - [Introduction to Bayesian Data Analysis and Stan](https://www.youtube.com/watch?v=T1gYvX5c2sM)
+- Frank Wood - [Inference Compilation](https://www.youtube.com/watch?v=jp3noyIYAbA)
+- [Probprog Conference](https://www.youtube.com/channel/UCTFDb7aQY1ewBYwJJrpKp6Q) 
 - [StanCon](https://www.youtube.com/playlist?list=PLCrWEzJgSUqzI3goQEAKkDsHg72inmqbe)
 ### Podcasts
 - [The Talking Machines](https://www.thetalkingmachines.com/episodes/anglican-and-probabilistic-programming) ANGLICAN and Probabilistic Programming
@@ -56,6 +62,14 @@
 - [Thacker2004](https://inis.iaea.org/search/search.aspx?orig_q=RN:36030870) Concepts of Model Verification and Validation
 - [Sargent2011](https://link.springer.com/article/10.1057/jos.2012.20) Verification and Validation of Simulation Models
 - [Sargent2015](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7408153) Use of the Interval Statistical Procedure for Simulation Model Validation 
+## Inference Diagnostics
+### R_hat
+1. Gelman, Rubin 1992
+1. Brooks, Gelman 1998 + correction
+1. Gelman et al 2003 in Bayesian Data Analysis 2 + simplification
+1. Gelman et al 2014 in Bayesian Data Analsysis 3 + split chains to asses stationarity
+1. Vehtari, Gelman, Simpson, Carpenter, Bürkner 2020
+    - Add Rank normalization to handle infinite variance - Add folding to improve detection of scale differences
 ## Information Criteria
 - [Akaike1973](https://link.springer.com/chapter/10.1007/978-1-4612-1694-0_15) Information Theory and an Extension of the Maximum Likelihood Principle
 - [Stone1977](https://link.springer.com/article/10.1007/s11222-013-9416-2#ref-CR35) An asymptotic equivalence of choice of model cross-validation and Akaike’s criterion
@@ -84,7 +98,9 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 ### Blogs
 [Oriol Unraveled](https://oriolabril.github.io/oriol_unraveled/blog/)
 ### Talks
-
+Aki Vehtari - [These are a few of my favorite inference diagnostics by Aki Vehtari
+]() 
+Rob Zinkov - [A Tour of Model Checking techniques](https://www.youtube.com/watch?v=vfqPGGCpY6I)
 # Probabilistic Modelling
 ## Papers
 [Gelman2002](http://www.stat.columbia.edu/~gelman/research/published/p039-_o.pdf) Prior Distribution
@@ -108,12 +124,18 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 # Inference
 ## Papers
 ### Exact
+#### Belief Propagation
 ### Approximate
-### Importance Sampling
-### Hybrids
-### Metropolis based Methods
-### Gibb's sampling
-### Monte Carlo Methods
+#### Importance Sampling
+- [Agapiou2017](https://arxiv.org/pdf/1511.06196.pdf) Importance Sampling: Intrinsic Dimension and Computational Cost
+#### Inference Compilation
+- [Paige2016]() Inference Networks for Sequential Monte Carlo in Graphical Models
+- [Le2017](https://arxiv.org/abs/1610.09900) Inference Compilation and Universal Probabilistic Programming
+#### Hybrids
+#### Metropolis based Methods
+#### Gibb's sampling
+- [Gelfand2000](http://www.stat.rutgers.edu/home/rongchen/papers/Gelfand2000.pdf) Gibbs Sampling
+#### Monte Carlo Methods
 - [Duane1987](https://www.sciencedirect.com/science/article/abs/pii/037026938791197X) Hybrid Monte Carlo
 - [Hoffman2011](https://arxiv.org/abs/1111.4246) The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo
 - [Betancourt2017](https://arxiv.org/abs/1701.02434) A conceptual introduction to Hamiltonian Monte Carlo
