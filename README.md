@@ -9,6 +9,8 @@
 
 ## Papers
 
+### General
+
 - [Thomas1992]() Bayesian Inference using Gibbs Sampling
 - [Sheu1998](https://link.springer.com/article/10.3758/BF03200649) Simulation-based Bayesian inference using BUGS
 - [Kulkarni1999](https://ieeexplore.ieee.org/document/7299068) Picture: A Probabilistic Programming Language for Scene Perception
@@ -44,6 +46,7 @@
 
 - [VanDeMeent2018](https://arxiv.org/abs/1809.10756) An Introduction to Probabilistic Programming
 - [Pilon2015](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) Probabilistic Programming and Bayesian Methods for Hackers
+- [Roy2011](http://scholar.google.de/scholar_url?url=https://dspace.mit.edu/bitstream/handle/1721.1/66463/756045048-MIT.pdf%3Bsequence%3D2&hl=de&sa=X&ei=hwCoX6q0DIqVmgGp67bQBA&scisig=AAGBfm2TUX0uuEQFWbFjG6PkP48ZWHSj-g&nossl=1&oi=scholarr()) Computability, inference and modeling inprobabilistic programming
 
 ## Other Resources
 
@@ -62,6 +65,9 @@
 - [The Talking Machines](https://www.thetalkingmachines.com/episodes/probabilistic-programming-and-digital-humanities) Probabilistic Programming and Digital Humanities
 
 # Validation
+
+## General
+
 - [Kass1995](https://www.jstor.org/stable/2291091?seq=1) Bayes Factors
 - [Gneiting2007](https://apps.dtic.mil/sti/pdfs/ADA454828.pdf) Strictly Proper Scoring Rules, Prediction, and Estimation
 - [Ohagan2003](http://www.tonyohagan.co.uk/academic/pub.html) HSSS Model Criticism
@@ -80,7 +86,10 @@
 - [Tsioptsias2016](https://drops.dagstuhl.de/opus/volltexte/2016/6518/pdf/OASIcs-SCOR-2016-6.pdf) Model Validation and Testing in Simulation: a Literature Review
 
 ## Inference Diagnostics
-- [Kass1995](https://www.jstor.org/stable/2291091?seq=1) Bayes Factors
+
+### General
+
+- [Gelman1997](https://projecteuclid.org/euclid.aoap/1034625254) Weak convergence and optimal scaling of random walk Metropolis algorithms
 ### R_hat
 
 - [Gelman1992](https://projecteuclid.org/euclid.ss/1177011136) Inference from Iterative Simulation Using Multiple Sequences
@@ -123,6 +132,15 @@ With Implementation Via Sampling-Based Methods
 - [Collins2014](https://pubmed.ncbi.nlm.nih.gov/24645774/) External Validation of Multivariable Prediction
 Models: A Systematic Review of Methodological Conduct and Reporting
 
+## Interpretability of Probabilistic Models
+
+- [Chubarian2020](https://isaim2020.cs.ou.edu/papers/ISAIM2020_Chubarian_Turan.pdf) Interpretability of Bayesian Network Classifiers: OBDD Approximation andPolynomial Threshold Functions
+
+## Explainability of Probabilistic Models
+
+- [Shih2018](https://arxiv.org/pdf/1805.03364.pdf) A Symbolic Approach to Explaining Bayesian Network Classifiers
+- [Timmer2017]() A two-phase method for extracting explanatory arguments from Bayesian networks
+
 ## Frameworks and libraries
 
 - [Kumar2019](https://joss.theoj.org/papers/10.21105/joss.01143) ArviZ is a unified library for exploratory analysis of Bayesian models in Python
@@ -164,15 +182,27 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [Frey2003](https://arxiv.org/abs/1212.2486) Extending Factor Graphs so as to Unify Graphical Models
 - [Jordan2004](https://projecteuclid.org/euclid.ss/1089808279) Graphical Models
 
+## Sum Product Networks
+
+- [Awesome SPN](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwinnfju0O3sAhVFDuwKHc1-AkEQFjAAegQIBBAC&url=https%3A%2F%2Fgithub.com%2Farranger1044%2Fawesome-spn&usg=AOvVaw1TyiC7G_InhUYsSLxNBArM)
+
 ## Books
 
 ## Other Resources
 
 # Inference
 
-## Papers
+## Paper 
+
+### General
+
+[Peyrard2018](https://arxiv.org/pdf/1506.08544.pdf) Exact or approximate inference in graphical models:why the choice is dictated by the treewidth, and howvariable elimination can be exploited
 
 ### Exact
+
+#### Variable Elimination
+
+#### Message Passing
 
 #### Belief Propagation
 
@@ -191,15 +221,17 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 
 #### Metropolis based Methods
 
+- [Metropolis1953](https://aip.scitation.org/doi/10.1063/1.1699114) Equation of State Calculations by Fast Computing Machines
+
 [Robert2016](https://arxiv.org/pdf/1504.01896.pdf) The Metropolis–Hastings Algorithm
 
 #### Gibb's sampling
 
+- [Gilks1992](https://www.jstor.org/stable/2347565?origin=crossref&seq=1#metadata_info_tab_contents) Adaptive Rejection Sampling for Gibbs Sampling
+
 - [Gelfand2000](http://www.stat.rutgers.edu/home/rongchen/papers/Gelfand2000.pdf) Gibbs Sampling
 
 #### Monte Carlo Methods
-
-- [Metropolis1953](https://aip.scitation.org/doi/10.1063/1.1699114) Equation of State Calculations by Fast Computing Machines
 
 - [Duane1987](https://www.sciencedirect.com/science/article/abs/pii/037026938791197X) Hybrid Monte Carlo
 - [Hoffman2011](https://arxiv.org/abs/1111.4246) The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo
