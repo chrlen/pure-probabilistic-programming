@@ -120,9 +120,10 @@
 - [Guttman1967](https://rss.onlinelibrary.wiley.com/doi/10.1111/j.2517-6161.1967.tb00676.x) The Use of the Concept of a Future Observation in Goodness‐Of‐Fit Problems
 - [Gelman1996](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.9951) Posterior Predictive Assessment of Model Fitness Via Realized Discrepancies
 - [Berkhoff2000](https://link.springer.com/article/10.1007/s001800000038) Posterior predictive checks: Principles and Discussion
-- [Gelman2007]()
+- [Gelman2002](https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/1467-9876.00190) Diagnostic checks for discrete-data regression models using posterior predictive simulations.
+- [Gelman2007](https://nyuscholars.nyu.edu/en/publications/data-analysis-using-regression-and-multilevelhierarchical-models) Data Analysis using Regression and Multilevel/Hierarchical Models
 - [Gelman2009]()
-- []()
+- [Kruschke2013](https://psycnet.apa.org/record/2012-18082-001) Bayesian estimation supersedes the t test.
 - [Gabry2019](https://arxiv.org/abs/1709.01449) Visualization in Bayesian workflow (loo-pit-ppc)
 
 ## External Validation
@@ -187,6 +188,11 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [Awesome SPN](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwinnfju0O3sAhVFDuwKHc1-AkEQFjAAegQIBBAC&url=https%3A%2F%2Fgithub.com%2Farranger1044%2Fawesome-spn&usg=AOvVaw1TyiC7G_InhUYsSLxNBArM)
 
 ## Books
+
+- [Wainright2008](https://people.eecs.berkeley.edu/~wainwrig/Papers/WaiJor08_FTML.pdf) Graphical Models, Exponential Families, and Variational Inference
+- [Koller2009](https://mitpress.mit.edu/books/probabilistic-graphical-models) Probabilistic Graphical Models: Principles and Techniques
+- [Cowel2006](https://www.springer.com/gp/book/9780387987675) Probabilistic Networks and Expert Systems 
+- [Bishop2006](https://dl.acm.org/doi/book/10.5555/1162264) Pattern Recognition and Machine Learning
 
 ## Other Resources
 
