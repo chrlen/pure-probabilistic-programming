@@ -118,7 +118,10 @@
 ## Posterior Predictive Checks
 
 - [Guttman1967](https://rss.onlinelibrary.wiley.com/doi/10.1111/j.2517-6161.1967.tb00676.x) The Use of the Concept of a Future Observation in Goodness‐Of‐Fit Problems
+- [Meng1994](https://projecteuclid.org/download/pdf_1/euclid.aos/1176325622) Posterior predictive p-values
 - [Gelman1996](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.9951) Posterior Predictive Assessment of Model Fitness Via Realized Discrepancies
+- [Lewis1996](https://www.jstor.org/stable/24306040?seq=1#metadata_info_tab_contents) Comment on ‘Posterior predictive assessment of model fitness via realized discrepancies’
+- [Hoijtink1997](https://link.springer.com/article/10.1007/BF02295273) A multidimensional item response model: constrained latent class analysis using the Gibbs sampler and posterior predictive checks.
 - [Berkhoff2000](https://link.springer.com/article/10.1007/s001800000038) Posterior predictive checks: Principles and Discussion
 - [Gelman2002](https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/1467-9876.00190) Diagnostic checks for discrete-data regression models using posterior predictive simulations.
 - [Gelman2007](https://nyuscholars.nyu.edu/en/publications/data-analysis-using-regression-and-multilevelhierarchical-models) Data Analysis using Regression and Multilevel/Hierarchical Models
@@ -164,6 +167,8 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 
 - [Gelman2002](http://www.stat.columbia.edu/~gelman/research/published/p039-_o.pdf) Prior Distribution
 - [Gelman2004](http://www.stat.columbia.edu/~gelman/research/published/parameterization.pdf) Parameterization and Bayesian Modelling
+- [Gelman2009](https://projecteuclid.org/euclid.ss/1263478375) Bayes, Jeffreys, Prior Distributions andthe Philosophy of Statistics
+- [Kass2012](https://amstat.tandfonline.com/doi/abs/10.1080/01621459.1996.10477003) The Selection of Prior Distributions by Formal Rules/
 - [Gelman2017](https://arxiv.org/abs/1708.07487) The Prior can generally only be understood in the context of the likelihood
 
 ## Books
@@ -229,7 +234,7 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 
 - [Metropolis1953](https://aip.scitation.org/doi/10.1063/1.1699114) Equation of State Calculations by Fast Computing Machines
 
-[Robert2016](https://arxiv.org/pdf/1504.01896.pdf) The Metropolis–Hastings Algorithm
+- [Robert2016](https://arxiv.org/pdf/1504.01896.pdf) The Metropolis–Hastings Algorithm
 
 #### Gibb's sampling
 
