@@ -15,6 +15,7 @@
 - [Sheu1998](https://link.springer.com/article/10.3758/BF03200649) Simulation-based Bayesian inference using BUGS
 - [Kulkarni1999](https://ieeexplore.ieee.org/document/7299068) Picture: A Probabilistic Programming Language for Scene Perception
 - [Pfeffer2005](https://dash.harvard.edu/handle/1/25105000) The Design and Implementation of IBAL: A General-Purpose Probabilistic Language
+- [DeRaedt2007](https://lirias.kuleuven.be/bitstream/123456789/146072/1/ijca) ProbLog: A probabilistic Prolog and its application in link discovery
 - [Lunn2009](https://onlinelibrary.wiley.com/doi/10.1002/sim.3680) The Bugs Project: Evolution, Critique and Future Directions
 - [Mansingkha2014](https://arxiv.org/abs/1404.0099) Venture: a higher-order probabilistic programming platform with programmable inference
 - [Gaunt2016](https://arxiv.org/abs/1608.04428) TerpreT: A Probabilistic Programming Language for Program Induction
@@ -35,6 +36,7 @@
 - [Becker2017](https://www.nature.com/articles/nature22038?_ga=2.84803610.2002036390.1539216000-1369394852.1539216000) Therapeutic reduction of ataxin-2 extends lifespan and reduces pathology in TDP-43 mice (STAN)
 - [Miller2017](https://www.nature.com/articles/nn.4613.pdf?origin=ppub) Dorsal hippocampus contributes to model-based planning (STAN)
 - [Svenson2017](https://www.nature.com/articles/nmeth.4220) Power analysis of single-cell RNA-sequencing experiments (STAN)
+-[Kucukelbir2017](https://www.jmlr.org/papers/volume18/16-107/16-107.pdf) Automatic Differentiation Variational Inference (STAN)
 - [Graham2018](https://www.nature.com/articles/s41586-018-0202-3) Seabirds Enhance Coral Reef Productivity (PyMC3)
 - [Baydin2019](https://arxiv.org/abs/1907.03382) Etalumis: Bringing Probabilistic Programming to Scientific Simulators at Scale
 - [Dehning2020](https://science.sciencemag.org/content/369/6500/eabb9789/tab-article-info) Inferring change points in the spread of COVID-19 reveals the effectiveness of interventions (PyMC3)
@@ -51,7 +53,7 @@
 ## Other Resources
 
 ### Talks
-
+- David M. Blei - [Black Box Variational Inference](https://www.youtube.com/watch?v=-H2N4tVDK7I)
 - Michael Betancourt - [Some Bayesian Modeling Techniques in Stan](https://www.youtube.com/watch?v=VnNdhsm0rJQ) 
 - Michael Betancourt - [Scalable Bayesian Inference with Hamiltonian Monte Carlo](https://www.youtube.com/watch?v=VnNdhsm0rJQ)
 - Andrew Gelman - [Introduction to Bayesian Data Analysis and Stan](https://www.youtube.com/watch?v=T1gYvX5c2sM)
@@ -72,6 +74,7 @@
 - [Gneiting2007](https://apps.dtic.mil/sti/pdfs/ADA454828.pdf) Strictly Proper Scoring Rules, Prediction, and Estimation
 - [Ohagan2003](http://www.tonyohagan.co.uk/academic/pub.html) HSSS Model Criticism
 - [Bayarri2007](https://www.jstor.org/stable/27645837?seq=1#metadata_info_tab_contents) Bayesian Checking of the Second Levels of Hierarchical Models
+- [Blei2014b](http://www.cs.columbia.edu/~blei/papers/Blei2014b.pdf) Build, Compute, Critique, Repeat:Data Analysis with Latent Variable Models
 - [Lloyd2015](http://papers.nips.cc/paper/5657-statistical-model-criticism-using-kernel-two-sample-tests.pdf) Statistical Model Criticism using Kernel Two Sample Tests
 - [Seth2018](https://arxiv.org/aibs/1711.04674) Model Criticism in latent space 
 - [Gabry2019](https://arxiv.org/abs/1709.01449) Visualization in Bayesian workflow
@@ -126,7 +129,7 @@
 - [Gelman2002](https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/1467-9876.00190) Diagnostic checks for discrete-data regression models using posterior predictive simulations.
 - [Gelman2007](https://nyuscholars.nyu.edu/en/publications/data-analysis-using-regression-and-multilevelhierarchical-models) Data Analysis using Regression and Multilevel/Hierarchical Models
 - [Gelman2009]()
-- [Kruschke2013](https://psycnet.apa.org/record/2012-18082-001) Bayesian estimation supersedes the t test.
+- [Kruschke2015](https://psycnet.apa.org/record/2012-18082-001) Bayesian estimation supersedes the t test.
 - [Gabry2019](https://arxiv.org/abs/1709.01449) Visualization in Bayesian workflow (loo-pit-ppc)
 
 ## External Validation
@@ -138,12 +141,15 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 
 ## Interpretability of Probabilistic Models
 
-- [Chubarian2020](https://isaim2020.cs.ou.edu/papers/ISAIM2020_Chubarian_Turan.pdf) Interpretability of Bayesian Network Classifiers: OBDD Approximation andPolynomial Threshold Functions
+- [Chubarian2020](https://isaim2020.cs.ou.edu/papers/ISAIM2020_Chubarian_Turan.pdf) Interpretability of Bayesian Network Classifiers: OBDD Approximation and Polynomial Threshold Functions
 
 ## Explainability of Probabilistic Models
 
 - [Shih2018](https://arxiv.org/pdf/1805.03364.pdf) A Symbolic Approach to Explaining Bayesian Network Classifiers
-- [Timmer2017]() A two-phase method for extracting explanatory arguments from Bayesian networks
+- [Timmer2017](https://www.sciencedirect.com/science/article/abs/pii/S0888613X16301402) A two-phase method for extracting explanatory arguments from Bayesian networks
+
+## Visualizations
+- [Kruschke2015](https://jkkweb.sitehost.iu.edu/articles/KruschkeVanpaemel2015.pdf) Bayesian Estimation in Hierarchical Models (Kruschke-style diagrams) 
 
 ## Frameworks and libraries
 
@@ -169,6 +175,7 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [Gelman2004](http://www.stat.columbia.edu/~gelman/research/published/parameterization.pdf) Parameterization and Bayesian Modelling
 - [Gelman2009](https://projecteuclid.org/euclid.ss/1263478375) Bayes, Jeffreys, Prior Distributions andthe Philosophy of Statistics
 - [Kass2012](https://amstat.tandfonline.com/doi/abs/10.1080/01621459.1996.10477003) The Selection of Prior Distributions by Formal Rules/
+- [Kruschke2015](https://jkkweb.sitehost.iu.edu/articles/KruschkeVanpaemel2015.pdf) Bayesian Estimation in Hierarchical Models (Kruschke-style diagrams) 
 - [Gelman2017](https://arxiv.org/abs/1708.07487) The Prior can generally only be understood in the context of the likelihood
 
 ## Books
@@ -177,6 +184,9 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [McElreath2015](https://xcelab.net/rm/statistical-rethinking/) Statistical Rethinking
 
 ## Other Resources
+
+- [Modern Statistical Workflow](https://khakieconomics.github.io/half_day_course/msw.html)
+- [Robust Statistical Workflow with RStan](https://mc-stan.org/users/documentation/case-studies/rstan_workflow.html)
 
 # Probabilistic Graphical Models
 
@@ -203,7 +213,7 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 
 # Inference
 
-## Paper 
+## Papers
 
 ### General
 
@@ -247,6 +257,11 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [Duane1987](https://www.sciencedirect.com/science/article/abs/pii/037026938791197X) Hybrid Monte Carlo
 - [Hoffman2011](https://arxiv.org/abs/1111.4246) The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo
 - [Betancourt2017](https://arxiv.org/abs/1701.02434) A conceptual introduction to Hamiltonian Monte Carlo
+
+#### Variational Inference
+
+- [Blei2018](https://arxiv.org/abs/1601.00670) Variational Inference: A Review for Statisticians
+-[Kucukelbir2017](https://www.jmlr.org/papers/volume18/16-107/16-107.pdf) Automatic Differentiation Variational Inference
 
 ## Books
 
