@@ -1,4 +1,4 @@
-
+This repository is a collection of publications related probabilistic programming panguages, probabilistic modelling, inference and validation of probabilistic models.
 
 1. [Probabilistic Programming](#probabilistic-programming)
 1. [Validation](#validation)
@@ -209,7 +209,7 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 
 ## Sum Product Networks
 
-- [Awesome SPN](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwinnfju0O3sAhVFDuwKHc1-AkEQFjAAegQIBBAC&url=https%3A%2F%2Fgithub.com%2Farranger1044%2Fawesome-spn&usg=AOvVaw1TyiC7G_InhUYsSLxNBArM)
+- [Awesome SPN](https://github.com/arranger1044/awesome-spn)
 
 ## Books
 
