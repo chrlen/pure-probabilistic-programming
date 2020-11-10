@@ -11,36 +11,45 @@
 
 ### General
 
+- [Ghahramani2015](https://www.nature.com/articles/nature14541) Probabilistic machine learning and artificial intelligence
+- [Perov2015](https://arxiv.org/pdf/1606.00075.pdf) Applications of Probabilistic Programming
+- [Perov2016](https://link.springer.com/chapter/10.1007/978-3-319-41649-6_27) Automatic Sampler Discovery via Probabilistic Programming and Approximate Bayesian Computation
+- [Le2017](https://arxiv.org/abs/1610.09900) Inference Compilation and Universal Probabilistic Programming
+- [Baudart2018](https://arxiv.org/abs/1804.06458) Deep Probabilistic Programming Languages: A Qualitative Study
+- [Anikwue2019](https://ieeexplore.ieee.org/abstract/document/8851053) Probabilistic Programming in Big Data
+
+### Languages
 - [Thomas1992]() Bayesian Inference using Gibbs Sampling
 - [Sheu1998](https://link.springer.com/article/10.3758/BF03200649) Simulation-based Bayesian inference using BUGS
 - [Kulkarni1999](https://ieeexplore.ieee.org/document/7299068) Picture: A Probabilistic Programming Language for Scene Perception
 - [Pfeffer2005](https://dash.harvard.edu/handle/1/25105000) The Design and Implementation of IBAL: A General-Purpose Probabilistic Language
 - [DeRaedt2007](https://lirias.kuleuven.be/bitstream/123456789/146072/1/ijca) ProbLog: A probabilistic Prolog and its application in link discovery
+- [Laskey2007](https://www.sciencedirect.com/science/article/pii/S0004370207001312) MEBN: A language for first-order Bayesian knowledge bases
 - [Lunn2009](https://onlinelibrary.wiley.com/doi/10.1002/sim.3680) The Bugs Project: Evolution, Critique and Future Directions
+- [Goodman2012](https://arxiv.org/abs/1206.3255) Church: A Language for generative Models
 - [Mansingkha2014](https://arxiv.org/abs/1404.0099) Venture: a higher-order probabilistic programming platform with programmable inference
 - [Gaunt2016](https://arxiv.org/abs/1608.04428) TerpreT: A Probabilistic Programming Language for Program Induction
-- [Perov2015](https://arxiv.org/pdf/1606.00075.pdf) Applications of Probabilistic Programming
-- [Perov2016](https://link.springer.com/chapter/10.1007/978-3-319-41649-6_27) Automatic Sampler Discovery via Probabilistic Programming and Approximate Bayesian Computation
 - [Tolpin2016](https://arxiv.org/abs/1608.05263) Design and Implementation of Probabilistic Programming Language Anglican
 - [Carpenter2017](https://www.jstatsoft.org/article/view/v076i01) Stan: A Probabilistic Programming Language
 - [Dillon2017](https://arxiv.org/abs/1711.10604) Tensorflow Distributions
-- [Le2017](https://arxiv.org/abs/1610.09900) Inference Compilation and Universal Probabilistic Programming
-- [Tran2017](https://arxiv.org/abs/1701.03757) Deep Probabilistic Programming
-- [Baudart2018](https://arxiv.org/abs/1804.06458) Deep Probabilistic Programming Languages: A Qualitative Study
-- [Anikwue2019](https://ieeexplore.ieee.org/abstract/document/8851053) Probabilistic Programming in Big Data
+- [Tran2017](https://arxiv.org/abs/1701.03757) Deep Probabilistic Programming (Edward)
+- [DeValpine2017](https://www.tandfonline.com/doi/abs/10.1080/10618600.2016.1172487) Programming With Models: Writing Statistical Algorithms for General Model Structures With NIMBLE
+- [Ge2018](http://proceedings.mlr.press/v84/ge18b/ge18b.pdf) Turing: a language for flexible probabilistic inference
+- [Binfham2018](https://arxiv.org/abs/1810.09538) Pyro: Deep Universal Probabilistic Programming
+- [Piponi2020](https://www.semanticscholar.org/paper/Joint-Distributions-for-TensorFlow-Probability-Piponi-Moore/1a6d35c345887625b833358af06605b99c2307bd) Joint Distributions for TensorFlow Probability
 
 ### Applications
-
+- [Papers using Infer.net](https://dotnet.github.io/infer/papers.html)
+- [Zhang2015](https://ieeexplore.ieee.org/abstract/document/7102752) Mixed Logical Inference and Probabilistic Planning for Robots in Unreliable Worlds
 - [Jacobs2016](https://www.sciencedirect.com/science/article/pii/S0140673615012246) Ovarian cancer screening and mortality in the UK Collaborative Trial of Ovarian Cancer Screening (UKCTOCS): a randomised controlled trial (STAN)
 - [Greiner2016](https://iopscience.iop.org/article/10.3847/2041-8205/827/2/L38) On The Fermi-GBM Event 0.4 s after GW150914 (PyMC3)
 - [Becker2017](https://www.nature.com/articles/nature22038?_ga=2.84803610.2002036390.1539216000-1369394852.1539216000) Therapeutic reduction of ataxin-2 extends lifespan and reduces pathology in TDP-43 mice (STAN)
 - [Miller2017](https://www.nature.com/articles/nn.4613.pdf?origin=ppub) Dorsal hippocampus contributes to model-based planning (STAN)
 - [Svenson2017](https://www.nature.com/articles/nmeth.4220) Power analysis of single-cell RNA-sequencing experiments (STAN)
--[Kucukelbir2017](https://www.jmlr.org/papers/volume18/16-107/16-107.pdf) Automatic Differentiation Variational Inference (STAN)
+- [Kucukelbir2017](https://www.jmlr.org/papers/volume18/16-107/16-107.pdf) Automatic Differentiation Variational Inference (STAN)
 - [Graham2018](https://www.nature.com/articles/s41586-018-0202-3) Seabirds Enhance Coral Reef Productivity (PyMC3)
 - [Baydin2019](https://arxiv.org/abs/1907.03382) Etalumis: Bringing Probabilistic Programming to Scientific Simulators at Scale
-- [Dehning2020](https://science.sciencemag.org/content/369/6500/eabb9789/tab-article-info) Inferring change points in the spread of COVID-19 reveals the effectiveness of interventions (PyMC3)
-    - [Talk at PyMCon 2020](https://www.youtube.com/watch?v=btHkSlePV5Q&feature=youtu.be)
+- [Dehning2020](https://science.sciencemag.org/content/369/6500/eabb9789/tab-article-info) Inferring change points in the spread of COVID-19 reveals the effectiveness of interventions (PyMC3) ([Talk at PyMCon 2020](https://www.youtube.com/watch?v=btHkSlePV5Q&feature=youtu.be))
 
 - [Brauner2020](https://www.medrxiv.org/content/10.1101/2020.05.28.20116129v4) The effectiveness of eight nonpharmaceutical interventions against COVID-19 in 41 countries (PyMC3)
 
@@ -60,7 +69,7 @@
 - Frank Wood - [Inference Compilation](https://www.youtube.com/watch?v=jp3noyIYAbA)
 - [Probprog Conference](https://www.youtube.com/channel/UCTFDb7aQY1ewBYwJJrpKp6Q) 
 - [StanCon](https://www.youtube.com/playlist?list=PLCrWEzJgSUqzI3goQEAKkDsHg72inmqbe)
-
+- [PyMC Developers / PyMCon](https://www.youtube.com/channel/UCZJsSAKJ5ViwL9-YMhYPwGg/videos)
 ### Podcasts
 
 - [The Talking Machines](https://www.thetalkingmachines.com/episodes/anglican-and-probabilistic-programming) ANGLICAN and Probabilistic Programming
@@ -229,8 +238,14 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 
 ### Approximate
 
-#### Importance Sampling
+- [Neil2003](https://projecteuclid.org/euclid.aos/1056562461) Slice Sampling
+- [Andrieu2010](https://www.stats.ox.ac.uk/~doucet/andrieu_doucet_holenstein_PMCMC.pdf) Particle Markov chain Monte Carlo methods
+- [DuBois2014](http://proceedings.mlr.press/v33/dubois14.pdf) Approximate Slice Sampling for Bayesian Posterior Inference 
+- [Paige2014](https://arxiv.org/abs/1407.2864) Asynchronous Anytime Sequential Monte Carlo
+- [Naeseth2016](https://arxiv.org/pdf/1612.09162.pdf) High-dimensional Filtering using Nested Sequential Monte Carlo
+- [Crisan2017](https://arxiv.org/pdf/1308.1883.pdf) Nested particle filters for online parameter estimation in discrete–time state–space Markov models
 
+#### Importance Sampling
 - [Agapiou2017](https://arxiv.org/pdf/1511.06196.pdf) Importance Sampling: Intrinsic Dimension and Computational Cost
 
 #### Inference Compilation
