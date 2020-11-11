@@ -19,7 +19,7 @@ This repository is a collection of publications related probabilistic programmin
 - [Anikwue2019](https://ieeexplore.ieee.org/abstract/document/8851053) Probabilistic Programming in Big Data
 
 ### Languages
-- [Thomas1992]() Bayesian Inference using Gibbs Sampling
+- [Gilks1992](https://www.cs.tufts.edu/~nr/cs257/archive/walter-gilks/bugs.pdf) A language and program for complex Bayesian modelling 
 - [Sheu1998](https://link.springer.com/article/10.3758/BF03200649) Simulation-based Bayesian inference using BUGS
 - [Kulkarni1999](https://ieeexplore.ieee.org/document/7299068) Picture: A Probabilistic Programming Language for Scene Perception
 - [Pfeffer2005](https://dash.harvard.edu/handle/1/25105000) The Design and Implementation of IBAL: A General-Purpose Probabilistic Language
