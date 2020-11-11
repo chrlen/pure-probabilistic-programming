@@ -26,6 +26,7 @@ This repository is a collection of publications related probabilistic programmin
 - [DeRaedt2007](https://lirias.kuleuven.be/bitstream/123456789/146072/1/ijca) ProbLog: A probabilistic Prolog and its application in link discovery
 - [Laskey2007](https://www.sciencedirect.com/science/article/pii/S0004370207001312) MEBN: A language for first-order Bayesian knowledge bases
 - [Lunn2009](https://onlinelibrary.wiley.com/doi/10.1002/sim.3680) The Bugs Project: Evolution, Critique and Future Directions
+- [Hershey2012](https://arxiv.org/abs/1212.2991) Accelerating Inference: towards a full Language,Compiler and Hardware stack (Dimple)
 - [Goodman2012](https://arxiv.org/abs/1206.3255) Church: A Language for generative Models
 - [Mansingkha2014](https://arxiv.org/abs/1404.0099) Venture: a higher-order probabilistic programming platform with programmable inference
 - [Gaunt2016](https://arxiv.org/abs/1608.04428) TerpreT: A Probabilistic Programming Language for Program Induction
@@ -70,6 +71,7 @@ This repository is a collection of publications related probabilistic programmin
 - [Probprog Conference](https://www.youtube.com/channel/UCTFDb7aQY1ewBYwJJrpKp6Q) 
 - [StanCon](https://www.youtube.com/playlist?list=PLCrWEzJgSUqzI3goQEAKkDsHg72inmqbe)
 - [PyMC Developers / PyMCon](https://www.youtube.com/channel/UCZJsSAKJ5ViwL9-YMhYPwGg/videos)
+
 ### Podcasts
 
 - [The Talking Machines](https://www.thetalkingmachines.com/episodes/anglican-and-probabilistic-programming) ANGLICAN and Probabilistic Programming
@@ -102,13 +104,23 @@ This repository is a collection of publications related probabilistic programmin
 ### General
 
 - [Gelman1997](https://projecteuclid.org/euclid.aoap/1034625254) Weak convergence and optimal scaling of random walk Metropolis algorithms
-### R_hat
 
-- [Gelman1992](https://projecteuclid.org/euclid.ss/1177011136) Inference from Iterative Simulation Using Multiple Sequences
+### R Convergence Measures
+
+- [Gelman1992](https://projecteuclqid.org/euclid.ss/1177011136) Inference from Iterative Simulation Using Multiple Sequences
 - [Brooks1998](http://www.stat.columbia.edu/~gelman/research/published/brooksgelman2.pdf) General Methods for Monitoring Convergence of Iterative Simulations
 - [Gelman2003] Bayesian Data Analysis, second edition
-- [Gelman2013] Bayesian Data Analysis, thrid edition
+- [Gelman2013](http://www.stat.columbia.edu/~gelman/book/) Bayesian Data Analysis, third edition
 - [Vehtari2020](https://projecteuclid.org/euclid.ba/1593828229) Rank-Normalization, Folding, and Localization: An Improved Rˆ for Assessing Convergence of MCMC
+- [Lambert2020](https://arxiv.org/abs/2003.07900) R*: A robust MCMC convergence diagnostic with uncertainty using gradient-boosted machines
+
+### Effective Sample Size
+
+- [Vehtari2020](https://projecteuclid.org/euclid.ba/1593828229) Rank-Normalization, Folding, and Localization: An Improved Rˆ for Assessing Convergence of MCMC
+
+### Monte Carlo Standart Errors
+
+- [Flegal2008](http://www.faculty.ucr.edu/~jflegal/Final_Thesis_twosided.pdf) Monte Carlo Standard Errors for Markov Chain 
 
 ## Information Criteria
 
@@ -157,10 +169,10 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [Shih2018](https://arxiv.org/pdf/1805.03364.pdf) A Symbolic Approach to Explaining Bayesian Network Classifiers
 - [Timmer2017](https://www.sciencedirect.com/science/article/abs/pii/S0888613X16301402) A two-phase method for extracting explanatory arguments from Bayesian networks
 
-## Visualizations
+## Visualization
 - [Kruschke2015](https://jkkweb.sitehost.iu.edu/articles/KruschkeVanpaemel2015.pdf) Bayesian Estimation in Hierarchical Models (Kruschke-style diagrams) 
 
-## Frameworks and libraries
+### Frameworks and libraries
 
 - [Kumar2019](https://joss.theoj.org/papers/10.21105/joss.01143) ArviZ is a unified library for exploratory analysis of Bayesian models in Python
 - [Bayesplot](https://mc-stan.org/bayesplot) is an R package providing an extensive library of plotting functions for use after fitting Bayesian models (typically with MCMC)
@@ -189,7 +201,7 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 
 ## Books
 
-- [Gelman2013a](http://www.stat.columbia.edu/~gelman/book/) Bayesian Data Analysis
+- [Gelman2013](http://www.stat.columbia.edu/~gelman/book/) Bayesian Data Analysis
 - [McElreath2015](https://xcelab.net/rm/statistical-rethinking/) Statistical Rethinking
 
 ## Other Resources
@@ -226,9 +238,12 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 
 ### General
 
-[Peyrard2018](https://arxiv.org/pdf/1506.08544.pdf) Exact or approximate inference in graphical models:why the choice is dictated by the treewidth, and howvariable elimination can be exploited
+[Peyrard2018](https://arxiv.org/pdf/1506.08544.pdf) Exact or approximate inference in graphical models: why the choice is dictated by the treewidth, and how variable elimination can be exploited
 
 ### Exact
+[217, 237, 200] 
+- [Pearl1998]() Probabilistic Reasoning in Intelligent Systems
+- [Copper1990](https://www.sciencedirect.com/science/article/abs/pii/000437029090060D) The computational complexity of probabilistic inference using bayesian belief networks
 
 #### Variable Elimination
 
@@ -237,7 +252,8 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 #### Belief Propagation
 
 ### Approximate
-
+- [Wellman2013](https://arxiv.org/abs/1302.6850) State-space Abstraction for Anytime Evaluation of Probabilistic Networks
+- [Dagum1993](https://www.sciencedirect.com/science/article/abs/pii/000437029390036B) Approximating probabilistic inference in Bayesian belief networks is NP-hard
 - [Neil2003](https://projecteuclid.org/euclid.aos/1056562461) Slice Sampling
 - [Andrieu2010](https://www.stats.ox.ac.uk/~doucet/andrieu_doucet_holenstein_PMCMC.pdf) Particle Markov chain Monte Carlo methods
 - [DuBois2014](http://proceedings.mlr.press/v33/dubois14.pdf) Approximate Slice Sampling for Bayesian Posterior Inference 
@@ -253,33 +269,32 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [Paige2016]() Inference Networks for Sequential Monte Carlo in Graphical Models
 - [Le2017](https://arxiv.org/abs/1610.09900) Inference Compilation and Universal Probabilistic Programming
 
-#### Hybrids
-
 #### Metropolis based Methods
 
 - [Metropolis1953](https://aip.scitation.org/doi/10.1063/1.1699114) Equation of State Calculations by Fast Computing Machines
-
 - [Robert2016](https://arxiv.org/pdf/1504.01896.pdf) The Metropolis–Hastings Algorithm
 
 #### Gibb's sampling
 
 - [Gilks1992](https://www.jstor.org/stable/2347565?origin=crossref&seq=1#metadata_info_tab_contents) Adaptive Rejection Sampling for Gibbs Sampling
-
+- [Jensen1995](https://www.sciencedirect.com/science/article/pii/S1071581985710294) Blocking Gibbs sampling in very large probabilistic expert systems
 - [Gelfand2000](http://www.stat.rutgers.edu/home/rongchen/papers/Gelfand2000.pdf) Gibbs Sampling
 
 #### Monte Carlo Methods
 
 - [Duane1987](https://www.sciencedirect.com/science/article/abs/pii/037026938791197X) Hybrid Monte Carlo
+- [Arouna2004](https://www.degruyter.com/view/journals/mcma/10/1/article-p1.xml) Adaptive Monte Carlo Method, A Variance Reduction Technique
 - [Hoffman2011](https://arxiv.org/abs/1111.4246) The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo
 - [Betancourt2017](https://arxiv.org/abs/1701.02434) A conceptual introduction to Hamiltonian Monte Carlo
 
 #### Variational Inference
 
 - [Blei2018](https://arxiv.org/abs/1601.00670) Variational Inference: A Review for Statisticians
--[Kucukelbir2017](https://www.jmlr.org/papers/volume18/16-107/16-107.pdf) Automatic Differentiation Variational Inference
+- [Kucukelbir2017](https://www.jmlr.org/papers/volume18/16-107/16-107.pdf) Automatic Differentiation Variational Inference
 
 ## Books
 
+- [Robert2000](https://www.springer.com/de/book/9780387212395) Monte Carlo Statistical Method
 - [Geyer2011](https://www.mcmchandbook.net/HandbookChapter1.pdf) Introduction to Markov Chain Monte Carlo
 
 ## Other Resources
@@ -287,5 +302,3 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 ### Blogs
 
 - [Richard McElreath's Blog](https://elevanth.org/blog/2017/11/28/build-a-better-markov-chain/) Markov Chains: Why Walk When You Can Flow?
-
-### Talks
