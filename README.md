@@ -1,4 +1,4 @@
-This repository is a collection of publications related probabilistic programming panguages, probabilistic modelling, inference and validation of probabilistic models.
+This repository is a collection of publications related to probabilistic programming languages, probabilistic modelling, inference and validation of probabilistic models.
 
 1. [Probabilistic Programming](#probabilistic-programming)
 1. [Validation](#validation)
