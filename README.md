@@ -1,7 +1,7 @@
 This repository is a collection of publications related to probabilistic programming languages, probabilistic modelling, inference and validation of probabilistic models.
 
 1. [Probabilistic Programming](#probabilistic-programming)
-1. [Validation](#validation)
+1. [Model Criticism](#model criticism)
 1. [Probabilistic Modelling](#probabilistic-modelling)
 1. [Probabilistic Graphical Models](#probabilistic-graphical-models)
 
@@ -77,7 +77,7 @@ This repository is a collection of publications related to probabilistic program
 - [The Talking Machines](https://www.thetalkingmachines.com/episodes/anglican-and-probabilistic-programming) ANGLICAN and Probabilistic Programming
 - [The Talking Machines](https://www.thetalkingmachines.com/episodes/probabilistic-programming-and-digital-humanities) Probabilistic Programming and Digital Humanities
 
-# Validation
+# Model Criticism
 
 ## General
 
