@@ -1,7 +1,7 @@
 This repository is a collection of publications related to probabilistic programming languages, probabilistic modelling, inference and validation of probabilistic models.
 
 1. [Probabilistic Programming](#probabilistic-programming)
-1. [Model Criticism](#model criticism)
+1. [Model Criticism](#model-criticism)
 1. [Probabilistic Modelling](#probabilistic-modelling)
 1. [Probabilistic Graphical Models](#probabilistic-graphical-models)
 
@@ -10,7 +10,7 @@ This repository is a collection of publications related to probabilistic program
 ## Papers
 
 ### General
-
+- [Freer2010](http://danroy.org/papers/FreerManRoy-NIPSMC-2010.pdf) When are probabilistic programs probably computationally tractable?
 - [Ghahramani2015](https://www.nature.com/articles/nature14541) Probabilistic machine learning and artificial intelligence
 - [Perov2015](https://arxiv.org/pdf/1606.00075.pdf) Applications of Probabilistic Programming
 - [Perov2016](https://link.springer.com/chapter/10.1007/978-3-319-41649-6_27) Automatic Sampler Discovery via Probabilistic Programming and Approximate Bayesian Computation
@@ -19,6 +19,7 @@ This repository is a collection of publications related to probabilistic program
 - [Anikwue2019](https://ieeexplore.ieee.org/abstract/document/8851053) Probabilistic Programming in Big Data
 
 ### Languages
+
 - [Gilks1992](https://www.cs.tufts.edu/~nr/cs257/archive/walter-gilks/bugs.pdf) A language and program for complex Bayesian modelling 
 - [Sheu1998](https://link.springer.com/article/10.3758/BF03200649) Simulation-based Bayesian inference using BUGS
 - [Kulkarni1999](https://ieeexplore.ieee.org/document/7299068) Picture: A Probabilistic Programming Language for Scene Perception
@@ -40,7 +41,7 @@ This repository is a collection of publications related to probabilistic program
 - [Piponi2020](https://www.semanticscholar.org/paper/Joint-Distributions-for-TensorFlow-Probability-Piponi-Moore/1a6d35c345887625b833358af06605b99c2307bd) Joint Distributions for TensorFlow Probability
 
 ### Applications
-- [Papers using Infer.net](https://dotnet.github.io/infer/papers.html)
+
 - [Zhang2015](https://ieeexplore.ieee.org/abstract/document/7102752) Mixed Logical Inference and Probabilistic Planning for Robots in Unreliable Worlds
 - [Jacobs2016](https://www.sciencedirect.com/science/article/pii/S0140673615012246) Ovarian cancer screening and mortality in the UK Collaborative Trial of Ovarian Cancer Screening (UKCTOCS): a randomised controlled trial (STAN)
 - [Greiner2016](https://iopscience.iop.org/article/10.3847/2041-8205/827/2/L38) On The Fermi-GBM Event 0.4 s after GW150914 (PyMC3)
@@ -51,8 +52,8 @@ This repository is a collection of publications related to probabilistic program
 - [Graham2018](https://www.nature.com/articles/s41586-018-0202-3) Seabirds Enhance Coral Reef Productivity (PyMC3)
 - [Baydin2019](https://arxiv.org/abs/1907.03382) Etalumis: Bringing Probabilistic Programming to Scientific Simulators at Scale
 - [Dehning2020](https://science.sciencemag.org/content/369/6500/eabb9789/tab-article-info) Inferring change points in the spread of COVID-19 reveals the effectiveness of interventions (PyMC3) ([Talk at PyMCon 2020](https://www.youtube.com/watch?v=btHkSlePV5Q&feature=youtu.be))
-
 - [Brauner2020](https://www.medrxiv.org/content/10.1101/2020.05.28.20116129v4) The effectiveness of eight nonpharmaceutical interventions against COVID-19 in 41 countries (PyMC3)
+- [Papers using Infer.net](https://dotnet.github.io/infer/papers.html)
 
 ## Books
 
@@ -81,6 +82,7 @@ This repository is a collection of publications related to probabilistic program
 
 ## General
 
+- [Cowell1993](https://ieeexplore.ieee.org/abstract/document/204903) Sequential Model Criticism in Probabilistic Expert Systems
 - [Kass1995](https://www.jstor.org/stable/2291091?seq=1) Bayes Factors
 - [Gneiting2007](https://apps.dtic.mil/sti/pdfs/ADA454828.pdf) Strictly Proper Scoring Rules, Prediction, and Estimation
 - [Ohagan2003](http://www.tonyohagan.co.uk/academic/pub.html) HSSS Model Criticism
@@ -241,7 +243,6 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 [Peyrard2018](https://arxiv.org/pdf/1506.08544.pdf) Exact or approximate inference in graphical models: why the choice is dictated by the treewidth, and how variable elimination can be exploited
 
 ### Exact
-[217, 237, 200] 
 - [Pearl1998]() Probabilistic Reasoning in Intelligent Systems
 - [Copper1990](https://www.sciencedirect.com/science/article/abs/pii/000437029090060D) The computational complexity of probabilistic inference using bayesian belief networks
 
