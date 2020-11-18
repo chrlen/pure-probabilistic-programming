@@ -1,4 +1,4 @@
-This repository is a collection of publications related to probabilistic programming languages, probabilistic modelling, inference and validation of probabilistic models.
+This repository is a collection of publications related to probabilistic programming languages, probabilistic modelling, inference and criticism of probabilistic models.
 
 1. [Probabilistic Programming](#probabilistic-programming)
 1. [Model Criticism](#model-criticism)
@@ -82,16 +82,18 @@ This repository is a collection of publications related to probabilistic program
 
 ## General
 
-- [Cowell1993](https://ieeexplore.ieee.org/abstract/document/204903) Sequential Model Criticism in Probabilistic Expert Systems
 - [Kass1995](https://www.jstor.org/stable/2291091?seq=1) Bayes Factors
-- [Gneiting2007](https://apps.dtic.mil/sti/pdfs/ADA454828.pdf) Strictly Proper Scoring Rules, Prediction, and Estimation
 - [Ohagan2003](http://www.tonyohagan.co.uk/academic/pub.html) HSSS Model Criticism
 - [Bayarri2007](https://www.jstor.org/stable/27645837?seq=1#metadata_info_tab_contents) Bayesian Checking of the Second Levels of Hierarchical Models
-- [Blei2014b](http://www.cs.columbia.edu/~blei/papers/Blei2014b.pdf) Build, Compute, Critique, Repeat:Data Analysis with Latent Variable Models
+- [Blei2014b](http://www.cs.columbia.edu/~blei/papers/Blei2014b.pdf) Build, Compute, Critique, Repeat: Data Analysis with Latent Variable Models
 - [Lloyd2015](http://papers.nips.cc/paper/5657-statistical-model-criticism-using-kernel-two-sample-tests.pdf) Statistical Model Criticism using Kernel Two Sample Tests
 - [Seth2018](https://arxiv.org/aibs/1711.04674) Model Criticism in latent space 
-- [Gabry2019](https://arxiv.org/abs/1709.01449) Visualization in Bayesian workflow
 - [Vehtari2019](https://arxiv.org/abs/1903.08008) Rank-normalization, folding, and localization: An improved Rˆ for assessing convergence of MCMC
+
+## Scoring Rules
+
+- [Gneiting2007](https://apps.dtic.mil/sti/pdfs/ADA454828.pdf) Strictly Proper Scoring Rules, Prediction, and Estimation
+- [Cowell1993](https://ieeexplore.ieee.org/abstract/document/204903) Sequential Model Criticism in Probabilistic Expert Systems
 
 ## Verification and Validation of Simulation Models
 
@@ -173,6 +175,7 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 
 ## Visualization
 - [Kruschke2015](https://jkkweb.sitehost.iu.edu/articles/KruschkeVanpaemel2015.pdf) Bayesian Estimation in Hierarchical Models (Kruschke-style diagrams) 
+- [Gabry2019](https://arxiv.org/abs/1709.01449) Visualization in Bayesian workflow
 
 ### Frameworks and libraries
 
@@ -196,10 +199,10 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 
 - [Gelman2002](http://www.stat.columbia.edu/~gelman/research/published/p039-_o.pdf) Prior Distribution
 - [Gelman2004](http://www.stat.columbia.edu/~gelman/research/published/parameterization.pdf) Parameterization and Bayesian Modelling
-- [Gelman2009](https://projecteuclid.org/euclid.ss/1263478375) Bayes, Jeffreys, Prior Distributions andthe Philosophy of Statistics
+- [Gelman2009](https://projecteuclid.org/euclid.ss/1263478375) Bayes, Jeffreys, Prior Distributions and the Philosophy of Statistics
 - [Kass2012](https://amstat.tandfonline.com/doi/abs/10.1080/01621459.1996.10477003) The Selection of Prior Distributions by Formal Rules/
 - [Kruschke2015](https://jkkweb.sitehost.iu.edu/articles/KruschkeVanpaemel2015.pdf) Bayesian Estimation in Hierarchical Models (Kruschke-style diagrams) 
-- [Gelman2017](https://arxiv.org/abs/1708.07487) The Prior can generally only be understood in the context of the likelihood
+- [Gelman2017](https://arxiv.org/abs/1708.07487) The Prior can generally only be understood in the Context of the Likelihood
 
 ## Books
 
@@ -240,17 +243,18 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 
 ### General
 
-[Peyrard2018](https://arxiv.org/pdf/1506.08544.pdf) Exact or approximate inference in graphical models: why the choice is dictated by the treewidth, and how variable elimination can be exploited
+- [Romero2009](https://www.sciencedirect.com/science/article/pii/S0888613X08001606) Triangulation of Bayesian networks with recursive estimation of distribution algorithms
+- [Peyrard2018](https://arxiv.org/pdf/1506.08544.pdf) Exact or approximate inference in graphical models: why the choice is dictated by the treewidth, and how variable elimination can be exploited
 
 ### Exact
-- [Pearl1998]() Probabilistic Reasoning in Intelligent Systems
-- [Copper1990](https://www.sciencedirect.com/science/article/abs/pii/000437029090060D) The computational complexity of probabilistic inference using bayesian belief networks
 
-#### Variable Elimination
+- [Pearl1998](https://www.semanticscholar.org/paper/Probabilistic-reasoning-in-intelligent-systems-of-Pearl/70ef29e6f0ce082bb8a47fd85b9bfb7cc0f20c93) Probabilistic Reasoning in Intelligent Systems
+- [Copper1990](https://www.sciencedirect.com/science/article/abs/pii/000437029090060D) The Computational Complexity of Probabilistic Inference using Bayesian Belief Networks
 
-#### Message Passing
-
-#### Belief Propagation
+#### Evidence Propagation
+- [Lauritzen1988](https://www.jstor.org/stable/2345762?seq=1#metadata_info_tab_contents) Local Computations with Probabilities on Graphical Structures and Their Application to Expert Systems
+- [Jensen1990](https://www.scienceopen.com/document?vid=efd6b3e8-6daf-4acd-92d0-73d7ff0014f2) Bayesian updating in Causal Probabilistic Networks by local Computation
+    
 
 ### Approximate
 - [Wellman2013](https://arxiv.org/abs/1302.6850) State-space Abstraction for Anytime Evaluation of Probabilistic Networks
