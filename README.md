@@ -15,8 +15,11 @@ This repository is a collection of publications related to probabilistic program
 - [Perov2015](https://arxiv.org/pdf/1606.00075.pdf) Applications of Probabilistic Programming
 - [Perov2016](https://link.springer.com/chapter/10.1007/978-3-319-41649-6_27) Automatic Sampler Discovery via Probabilistic Programming and Approximate Bayesian Computation
 - [Le2017](https://arxiv.org/abs/1610.09900) Inference Compilation and Universal Probabilistic Programming
+- [Mansinghka2018](https://dl.acm.org/doi/10.1145/3296979.3192409) Probabilistic Programming with Programmable Inference
 - [Baudart2018](https://arxiv.org/abs/1804.06458) Deep Probabilistic Programming Languages: A Qualitative Study
+- [CusumanoTower2018](https://dl.acm.org/doi/10.1145/3192366.3192399)Incremental Inference for Probabilistic Programs
 - [Anikwue2019](https://ieeexplore.ieee.org/abstract/document/8851053) Probabilistic Programming in Big Data
+- [Saad2019](https://dl.acm.org/doi/10.1145/3290350) Bayesian Synthesis of Probabilistic Programs for automatic Data Modeling
 
 ### Languages
 
@@ -38,6 +41,7 @@ This repository is a collection of publications related to probabilistic program
 - [DeValpine2017](https://www.tandfonline.com/doi/abs/10.1080/10618600.2016.1172487) Programming With Models: Writing Statistical Algorithms for General Model Structures With NIMBLE
 - [Ge2018](http://proceedings.mlr.press/v84/ge18b/ge18b.pdf) Turing: a language for flexible probabilistic inference
 - [Binfham2018](https://arxiv.org/abs/1810.09538) Pyro: Deep Universal Probabilistic Programming
+- [CusumanoTower2019](https://dl.acm.org/doi/10.1145/3314221.3314642) Gen: a general-purpose probabilistic programming system with programmable inference 
 - [Piponi2020](https://www.semanticscholar.org/paper/Joint-Distributions-for-TensorFlow-Probability-Piponi-Moore/1a6d35c345887625b833358af06605b99c2307bd) Joint Distributions for TensorFlow Probability
 
 ### Applications
@@ -84,6 +88,7 @@ This repository is a collection of publications related to probabilistic program
 
 - [Kass1995](https://www.jstor.org/stable/2291091?seq=1) Bayes Factors
 - [Ohagan2003](http://www.tonyohagan.co.uk/academic/pub.html) HSSS Model Criticism
+- [Krnjajic2008](https://www.researchgate.net/publication/222533191_Parametric_and_nonparametric_Bayesian_model_specification_A_case_study_involving_models_for_count_data) Parametric and nonparametric Bayesian model specification: A casestudy involving models for count data
 - [Bayarri2007](https://www.jstor.org/stable/27645837?seq=1#metadata_info_tab_contents) Bayesian Checking of the Second Levels of Hierarchical Models
 - [Blei2014b](http://www.cs.columbia.edu/~blei/papers/Blei2014b.pdf) Build, Compute, Critique, Repeat: Data Analysis with Latent Variable Models
 - [Lloyd2015](http://papers.nips.cc/paper/5657-statistical-model-criticism-using-kernel-two-sample-tests.pdf) Statistical Model Criticism using Kernel Two Sample Tests
@@ -199,6 +204,7 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 
 - [Gelman2002](http://www.stat.columbia.edu/~gelman/research/published/p039-_o.pdf) Prior Distribution
 - [Gelman2004](http://www.stat.columbia.edu/~gelman/research/published/parameterization.pdf) Parameterization and Bayesian Modelling
+- [Skrondal2007](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.433.3721&rep=rep1&type=pdf) Latent Variable Modelling: A Survey
 - [Gelman2009](https://projecteuclid.org/euclid.ss/1263478375) Bayes, Jeffreys, Prior Distributions and the Philosophy of Statistics
 - [Kass2012](https://amstat.tandfonline.com/doi/abs/10.1080/01621459.1996.10477003) The Selection of Prior Distributions by Formal Rules/
 - [Kruschke2015](https://jkkweb.sitehost.iu.edu/articles/KruschkeVanpaemel2015.pdf) Bayesian Estimation in Hierarchical Models (Kruschke-style diagrams) 
@@ -252,11 +258,13 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [Copper1990](https://www.sciencedirect.com/science/article/abs/pii/000437029090060D) The Computational Complexity of Probabilistic Inference using Bayesian Belief Networks
 
 #### Evidence Propagation
+
 - [Lauritzen1988](https://www.jstor.org/stable/2345762?seq=1#metadata_info_tab_contents) Local Computations with Probabilities on Graphical Structures and Their Application to Expert Systems
 - [Jensen1990](https://www.scienceopen.com/document?vid=efd6b3e8-6daf-4acd-92d0-73d7ff0014f2) Bayesian updating in Causal Probabilistic Networks by local Computation
     
 
 ### Approximate
+
 - [Wellman2013](https://arxiv.org/abs/1302.6850) State-space Abstraction for Anytime Evaluation of Probabilistic Networks
 - [Dagum1993](https://www.sciencedirect.com/science/article/abs/pii/000437029390036B) Approximating probabilistic inference in Bayesian belief networks is NP-hard
 - [Neil2003](https://projecteuclid.org/euclid.aos/1056562461) Slice Sampling
@@ -265,6 +273,10 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [Paige2014](https://arxiv.org/abs/1407.2864) Asynchronous Anytime Sequential Monte Carlo
 - [Naeseth2016](https://arxiv.org/pdf/1612.09162.pdf) High-dimensional Filtering using Nested Sequential Monte Carlo
 - [Crisan2017](https://arxiv.org/pdf/1308.1883.pdf) Nested particle filters for online parameter estimation in discrete–time state–space Markov models
+
+#### General
+
+- [Ng2000](https://papers.nips.cc/paper/1999/file/84f0f20482cde7e5eacaf7364a643d33-Paper.pdf) Approximate Inference Algorithms for two-layer Bayesian Networks
 
 #### Importance Sampling
 - [Agapiou2017](https://arxiv.org/pdf/1511.06196.pdf) Importance Sampling: Intrinsic Dimension and Computational Cost
@@ -293,7 +305,8 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [Betancourt2017](https://arxiv.org/abs/1701.02434) A conceptual introduction to Hamiltonian Monte Carlo
 
 #### Variational Inference
-
+- [Jordan1999](https://people.eecs.berkeley.edu/~jordan/papers/variational-intro.pdf) An Introduction to Variational Methods for Graphical Models
+- [Jaakkola1999]() Variational Probabilistic Inference and the QMR-DT Network
 - [Blei2018](https://arxiv.org/abs/1601.00670) Variational Inference: A Review for Statisticians
 - [Kucukelbir2017](https://www.jmlr.org/papers/volume18/16-107/16-107.pdf) Automatic Differentiation Variational Inference
 
