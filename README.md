@@ -1,8 +1,8 @@
 This repository is a collection of publications related to probabilistic programming languages, probabilistic modelling, inference and criticism of probabilistic models.
 
-- This compilation is released under [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/).
+- This collection is released under [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/).
 - Contribution is very welcome! 
-- Also, it is inspired by the formidable [awesome-spn](https://github.com/arranger1044/awesome-spn).
+- It is inspired by the formidable [awesome-spn](https://github.com/arranger1044/awesome-spn).
 
 # Table of Contents
 1. [Probabilistic Programming](#probabilistic-programming)
@@ -15,6 +15,7 @@ This repository is a collection of publications related to probabilistic program
 ## Papers
 
 ### General
+This section contains papers that are generally related to probabilistic programming and don't have a more specific subsection (yet).
 - [Freer2010](http://danroy.org/papers/FreerManRoy-NIPSMC-2010.pdf) When are probabilistic programs probably computationally tractable?
 - [Ghahramani2015](https://www.nature.com/articles/nature14541) Probabilistic machine learning and artificial intelligence
 - [Perov2015](https://arxiv.org/pdf/1606.00075.pdf) Applications of Probabilistic Programming
@@ -27,6 +28,7 @@ This repository is a collection of publications related to probabilistic program
 - [Saad2019](https://dl.acm.org/doi/10.1145/3290350) Bayesian Synthesis of Probabilistic Programs for automatic Data Modeling
 
 ### Languages
+This section contains publications that introduce new languages or features for existing languages.
 
 - [Gilks1992](https://www.cs.tufts.edu/~nr/cs257/archive/walter-gilks/bugs.pdf) A language and program for complex Bayesian modelling 
 - [Sheu1998](https://link.springer.com/article/10.3758/BF03200649) Simulation-based Bayesian inference using BUGS
@@ -50,6 +52,7 @@ This repository is a collection of publications related to probabilistic program
 - [Piponi2020](https://www.semanticscholar.org/paper/Joint-Distributions-for-TensorFlow-Probability-Piponi-Moore/1a6d35c345887625b833358af06605b99c2307bd) Joint Distributions for TensorFlow Probability
 
 ### Applications
+Here we collect publications that apply probabilistic programming languages in active research.
 
 - [Zhang2015](https://ieeexplore.ieee.org/abstract/document/7102752) Mixed Logical Inference and Probabilistic Planning for Robots in Unreliable Worlds
 - [Jacobs2016](https://www.sciencedirect.com/science/article/pii/S0140673615012246) Ovarian cancer screening and mortality in the UK Collaborative Trial of Ovarian Cancer Screening (UKCTOCS): a randomised controlled trial (STAN)
@@ -65,14 +68,17 @@ This repository is a collection of publications related to probabilistic program
 - [Papers using Infer.net](https://dotnet.github.io/infer/papers.html)
 
 ## Books
+This section collects books or longer publications that focus primarily on probabilistic programming languages.
 
 - [VanDeMeent2018](https://arxiv.org/abs/1809.10756) An Introduction to Probabilistic Programming
 - [Pilon2015](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) Probabilistic Programming and Bayesian Methods for Hackers
 - [Roy2011](http://scholar.google.de/scholar_url?url=https://dspace.mit.edu/bitstream/handle/1721.1/66463/756045048-MIT.pdf%3Bsequence%3D2&hl=de&sa=X&ei=hwCoX6q0DIqVmgGp67bQBA&scisig=AAGBfm2TUX0uuEQFWbFjG6PkP48ZWHSj-g&nossl=1&oi=scholarr()) Computability, inference and modeling inprobabilistic programming
 
 ## Other Resources
+Here we collect media like talks and podcasts apart from official publications.
 
 ### Talks
+
 - David M. Blei - [Black Box Variational Inference](https://www.youtube.com/watch?v=-H2N4tVDK7I)
 - Michael Betancourt - [Some Bayesian Modeling Techniques in Stan](https://www.youtube.com/watch?v=VnNdhsm0rJQ) 
 - Michael Betancourt - [Scalable Bayesian Inference with Hamiltonian Monte Carlo](https://www.youtube.com/watch?v=VnNdhsm0rJQ)
@@ -88,6 +94,7 @@ This repository is a collection of publications related to probabilistic program
 - [The Talking Machines](https://www.thetalkingmachines.com/episodes/probabilistic-programming-and-digital-humanities) Probabilistic Programming and Digital Humanities
 
 # Model Criticism
+This section contains everything related to model criticism, inference diagnosis and everything that is about the assessment of model quality.
 
 ## General
 
@@ -99,19 +106,6 @@ This repository is a collection of publications related to probabilistic program
 - [Lloyd2015](http://papers.nips.cc/paper/5657-statistical-model-criticism-using-kernel-two-sample-tests.pdf) Statistical Model Criticism using Kernel Two Sample Tests
 - [Seth2018](https://arxiv.org/aibs/1711.04674) Model Criticism in latent space 
 - [Vehtari2019](https://arxiv.org/abs/1903.08008) Rank-normalization, folding, and localization: An improved Rˆ for assessing convergence of MCMC
-
-## Scoring Rules
-
-- [Gneiting2007](https://apps.dtic.mil/sti/pdfs/ADA454828.pdf) Strictly Proper Scoring Rules, Prediction, and Estimation
-- [Cowell1993](https://ieeexplore.ieee.org/abstract/document/204903) Sequential Model Criticism in Probabilistic Expert Systems
-
-## Verification and Validation of Simulation Models
-
-- [Klejnen1995](https://www.sciencedirect.com/science/article/pii/037722179500132A) Statistical validation of simulation models
-- [Thacker2004](https://inis.iaea.org/search/search.aspx?orig_q=RN:36030870) Concepts of Model Verification and Validation
-- [Sargent2011](https://link.springer.com/article/10.1057/jos.2012.20) Verification and Validation of Simulation Models
-- [Sargent2015](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7408153) Use of the Interval Statistical Procedure for Simulation Model Validation 
-- [Tsioptsias2016](https://drops.dagstuhl.de/opus/volltexte/2016/6518/pdf/OASIcs-SCOR-2016-6.pdf) Model Validation and Testing in Simulation: a Literature Review
 
 ## Inference Diagnostics
 
@@ -161,6 +155,19 @@ culty.ucr.edu/~jflegal/Final_Thesis_twosided.pdf) Monte Carlo Standard Errors fo
 - [Kruschke2015](https://psycnet.apa.org/record/2012-18082-001) Bayesian estimation supersedes the t test.
 - [Gabry2019](https://arxiv.org/abs/1709.01449) Visualization in Bayesian workflow (loo-pit-ppc)
 
+## Scoring Rules
+
+- [Gneiting2007](https://apps.dtic.mil/sti/pdfs/ADA454828.pdf) Strictly Proper Scoring Rules, Prediction, and Estimation
+- [Cowell1993](https://ieeexplore.ieee.org/abstract/document/204903) Sequential Model Criticism in Probabilistic Expert Systems
+
+## Verification and Validation of Simulation Models
+
+- [Klejnen1995](https://www.sciencedirect.com/science/article/pii/037722179500132A) Statistical validation of simulation models
+- [Thacker2004](https://inis.iaea.org/search/search.aspx?orig_q=RN:36030870) Concepts of Model Verification and Validation
+- [Sargent2011](https://link.springer.com/article/10.1057/jos.2012.20) Verification and Validation of Simulation Models
+- [Sargent2015](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7408153) Use of the Interval Statistical Procedure for Simulation Model Validation 
+- [Tsioptsias2016](https://drops.dagstuhl.de/opus/volltexte/2016/6518/pdf/OASIcs-SCOR-2016-6.pdf) Model Validation and Testing in Simulation: a Literature Review
+
 ## External Validation
 
 - [Gelfand1992](https://statistics.stanford.edu/research/model-determination-using-predictive-distributions-implementation-sampling-based-methods) Model Determination Using Predictive Distributions
@@ -178,15 +185,19 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [Timmer2017](https://www.sciencedirect.com/science/article/abs/pii/S0888613X16301402) A two-phase method for extracting explanatory arguments from Bayesian networks
 
 ## Visualization
+This section contains publications that use visualization for model criticism.
+
 - [Kruschke2015](https://jkkweb.sitehost.iu.edu/articles/KruschkeVanpaemel2015.pdf) Bayesian Estimation in Hierarchical Models (Kruschke-style diagrams) 
 - [Gabry2019](https://arxiv.org/abs/1709.01449) Visualization in Bayesian workflow
 
 ### Frameworks and libraries
+This section lists frameworks that provide model criticism functionality.
 
 - [Kumar2019](https://joss.theoj.org/papers/10.21105/joss.01143) ArviZ is a unified library for exploratory analysis of Bayesian models in Python
 - [Bayesplot](https://mc-stan.org/bayesplot) is an R package providing an extensive library of plotting functions for use after fitting Bayesian models (typically with MCMC)
 
 ## Other Resources
+Here we collect media like talks and podcasts apart from official publications.
 
 ### Blogs
 
@@ -200,6 +211,8 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 # Probabilistic Modelling
 
 ## Papers
+
+### General
 
 - [Gelman2002](http://www.stat.columbia.edu/~gelman/research/published/p039-_o.pdf) Prior Distribution
 - [Gelman2004](http://www.stat.columbia.edu/~gelman/research/published/parameterization.pdf) Parameterization and Bayesian Modelling
@@ -215,6 +228,7 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [McElreath2015](https://xcelab.net/rm/statistical-rethinking/) Statistical Rethinking
 
 ## Other Resources
+Here we collect media like talks and podcasts apart from official publications.
 
 - [Modern Statistical Workflow](https://khakieconomics.github.io/half_day_course/msw.html)
 - [Robust Statistical Workflow with RStan](https://mc-stan.org/users/documentation/case-studies/rstan_workflow.html)
@@ -240,8 +254,6 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [Cowel2006](https://www.springer.com/gp/book/9780387987675) Probabilistic Networks and Expert Systems 
 - [Bishop2006](https://dl.acm.org/doi/book/10.5555/1162264) Pattern Recognition and Machine Learning
 
-## Other Resources
-
 # Inference
 
 ## Papers
@@ -252,6 +264,7 @@ Models: A Systematic Review of Methodological Conduct and Reporting
 - [Peyrard2018](https://arxiv.org/pdf/1506.08544.pdf) Exact or approximate inference in graphical models: why the choice is dictated by the treewidth, and how variable elimination can be exploited
 
 ### Exact
+This section contains publications that focus on or involve exact inference.
 
 - [Pearl1998](https://www.semanticscholar.org/paper/Probabilistic-reasoning-in-intelligent-systems-of-Pearl/70ef29e6f0ce082bb8a47fd85b9bfb7cc0f20c93) Probabilistic Reasoning in Intelligent Systems
 - [Copper1990](https://www.sciencedirect.com/science/article/abs/pii/000437029090060D) The Computational Complexity of Probabilistic Inference using Bayesian Belief Networks
