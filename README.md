@@ -1,5 +1,10 @@
 This repository is a collection of publications related to probabilistic programming languages, probabilistic modelling, inference and criticism of probabilistic models.
 
+- This compilation is released under Public Domain. [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+- Contribution is very welcome! 
+- Also, it is inspired by the formidable [awesome-spn](https://github.com/arranger1044/awesome-spn).
+
+# Table of Contents
 1. [Probabilistic Programming](#probabilistic-programming)
 1. [Model Criticism](#model-criticism)
 1. [Probabilistic Modelling](#probabilistic-modelling)
@@ -122,14 +127,8 @@ This repository is a collection of publications related to probabilistic program
 - [Gelman2013](http://www.stat.columbia.edu/~gelman/book/) Bayesian Data Analysis, third edition
 - [Vehtari2020](https://projecteuclid.org/euclid.ba/1593828229) Rank-Normalization, Folding, and Localization: An Improved Rˆ for Assessing Convergence of MCMC
 - [Lambert2020](https://arxiv.org/abs/2003.07900) R*: A robust MCMC convergence diagnostic with uncertainty using gradient-boosted machines
-
-### Effective Sample Size
-
-- [Vehtari2020](https://projecteuclid.org/euclid.ba/1593828229) Rank-Normalization, Folding, and Localization: An Improved Rˆ for Assessing Convergence of MCMC
-
-### Monte Carlo Standart Errors
-
-- [Flegal2008](http://www.faculty.ucr.edu/~jflegal/Final_Thesis_twosided.pdf) Monte Carlo Standard Errors for Markov Chain 
+Feel free to complete and/or correct any of these lists. [Pull requests](https://github.com/arranger1044/awesome-spn/pulls) are very welcome!
+culty.ucr.edu/~jflegal/Final_Thesis_twosided.pdf) Monte Carlo Standard Errors for Markov Chain 
 
 ## Information Criteria
 
