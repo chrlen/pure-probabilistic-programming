@@ -1,6 +1,6 @@
 This repository is a collection of publications related to probabilistic programming languages, probabilistic modelling, inference and criticism of probabilistic models.
 
-- Consider the more intuitive [mindmap-view](https://chrlen.github.io/pure-probabilistic-programming/) made possible by [markmap](https://github.com/dundalek/markmap).
+- You might enjoy the [mindmap-view](https://chrlen.github.io/pure-probabilistic-programming/) made possible by [markmap](https://github.com/dundalek/markmap).
 - This collection is released under [![CC0](http://i.creativecommons.org/p/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/).
 - Contribution is very welcome! 
 - It is inspired by the formidable [awesome-spn](https://github.com/arranger1044/awesome-spn).
