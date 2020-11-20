@@ -1,6 +1,6 @@
 This repository is a collection of publications related to probabilistic programming languages, probabilistic modelling, inference and criticism of probabilistic models.
 
-- This compilation is released under Public Domain. [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+- This compilation is released under [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/).
 - Contribution is very welcome! 
 - Also, it is inspired by the formidable [awesome-spn](https://github.com/arranger1044/awesome-spn).
 
