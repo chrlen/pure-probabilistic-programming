@@ -1,12 +1,16 @@
 This repository is a collection of publications related to probabilistic programming languages, probabilistic modelling, inference and criticism of probabilistic models.
 
-
+- You might enjoy the [mindmap-view](https://chrlen.github.io/pure-probabilistic-programming/) made possible by [markmap](https://github.com/dundalek/markmap).
+- This collection is released under [![CC0](http://i.creativecommons.org/p/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/).
+- Contribution is very welcome! 
+- It is inspired by the formidable [awesome-spn](https://github.com/arranger1044/awesome-spn).
 
 # Table of Contents
 1. [Probabilistic Programming](#probabilistic-programming)
 1. [Model Criticism](#model-criticism)
 1. [Probabilistic Modelling](#probabilistic-modelling)
 1. [Probabilistic Graphical Models](#probabilistic-graphical-models)
+1. [Inference](#inference)
 
 # Probabilistic Programming
 
@@ -97,7 +101,7 @@ Here we collect media like talks and podcasts apart from official publications.
 This section contains everything related to model criticism, inference diagnosis and everything that is about the assessment of model quality.
 
 ## General
-
+- [Oreskes1994](https://science.sciencemag.org/content/263/5147/641) Verification, Validation, and Confirmation of Numerical Models in the Earth Sciences
 - [Kass1995](https://www.jstor.org/stable/2291091?seq=1) Bayes Factors
 - [Ohagan2003](http://www.tonyohagan.co.uk/academic/pub.html) HSSS Model Criticism
 - [Krnjajic2008](https://www.researchgate.net/publication/222533191_Parametric_and_nonparametric_Bayesian_model_specification_A_case_study_involving_models_for_count_data) Parametric and nonparametric Bayesian model specification: A casestudy involving models for count data
