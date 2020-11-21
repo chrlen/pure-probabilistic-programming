@@ -1,9 +1,6 @@
 This repository is a collection of publications related to probabilistic programming languages, probabilistic modelling, inference and criticism of probabilistic models.
 
-- You might enjoy the [mindmap-view](https://chrlen.github.io/pure-probabilistic-programming/) made possible by [markmap](https://github.com/dundalek/markmap).
-- This collection is released under [![CC0](http://i.creativecommons.org/p/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/).
-- Contribution is very welcome! 
-- It is inspired by the formidable [awesome-spn](https://github.com/arranger1044/awesome-spn).
+
 
 # Table of Contents
 1. [Probabilistic Programming](#probabilistic-programming)
@@ -16,7 +13,9 @@ This repository is a collection of publications related to probabilistic program
 ## Papers
 
 ### General
+
 This section contains papers that are generally related to probabilistic programming and don't have a more specific subsection (yet).
+
 - [Freer2010](http://danroy.org/papers/FreerManRoy-NIPSMC-2010.pdf) When are probabilistic programs probably computationally tractable?
 - [Ghahramani2015](https://www.nature.com/articles/nature14541) Probabilistic machine learning and artificial intelligence
 - [Perov2015](https://arxiv.org/pdf/1606.00075.pdf) Applications of Probabilistic Programming
@@ -103,6 +102,7 @@ This section contains everything related to model criticism, inference diagnosis
 - [Ohagan2003](http://www.tonyohagan.co.uk/academic/pub.html) HSSS Model Criticism
 - [Krnjajic2008](https://www.researchgate.net/publication/222533191_Parametric_and_nonparametric_Bayesian_model_specification_A_case_study_involving_models_for_count_data) Parametric and nonparametric Bayesian model specification: A casestudy involving models for count data
 - [Bayarri2007](https://www.jstor.org/stable/27645837?seq=1#metadata_info_tab_contents) Bayesian Checking of the Second Levels of Hierarchical Models
+- [Bayarri2007](https://www.tandfonline.com/doi/abs/10.1198/004017007000000092) A Framework for Validation of Computer Models
 - [Blei2014b](http://www.cs.columbia.edu/~blei/papers/Blei2014b.pdf) Build, Compute, Critique, Repeat: Data Analysis with Latent Variable Models
 - [Lloyd2015](http://papers.nips.cc/paper/5657-statistical-model-criticism-using-kernel-two-sample-tests.pdf) Statistical Model Criticism using Kernel Two Sample Tests
 - [Seth2018](https://arxiv.org/aibs/1711.04674) Model Criticism in latent space 
