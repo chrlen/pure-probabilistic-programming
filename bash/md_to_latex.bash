@@ -8,4 +8,4 @@ TMP=/tmp/thisIsATempFile1234.tex
 pandoc README.md -o ${TMP}
 
 # Drop table of contents
-tail -n +19 ${TMP} > ${OUTPUT_DIR}
+tail -n +24 ${TMP} > ${OUTPUT_DIR}
