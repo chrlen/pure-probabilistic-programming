@@ -253,7 +253,7 @@ Here we collect media like talks and podcasts apart from official publications.
 - [Awesome SPN](https://github.com/arranger1044/awesome-spn)
 
 ## Books
-
+- [Darwiche2009](https://dl.acm.org/doi/book/10.5555/1534901) Modeling and Reasoning with Bayesian Networks 
 - [Wainright2008](https://people.eecs.berkeley.edu/~wainwrig/Papers/WaiJor08_FTML.pdf) Graphical Models, Exponential Families, and Variational Inference
 - [Koller2009](https://mitpress.mit.edu/books/probabilistic-graphical-models) Probabilistic Graphical Models: Principles and Techniques
 - [Cowel2006](https://www.springer.com/gp/book/9780387987675) Probabilistic Networks and Expert Systems 
