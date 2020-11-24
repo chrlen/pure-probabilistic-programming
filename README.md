@@ -241,7 +241,7 @@ Here we collect media like talks and podcasts apart from official publications.
 # Probabilistic Graphical Models
 
 ## Papers
-
+- [Kinderman1980](https://www.tandfonline.com/doi/abs/10.1080/0022250X.1980.9989895) On the relation between Markov random fields and social networks
 - [Pearl1988](https://dl.acm.org/doi/book/10.5555/534975) Probabilistic Reasoning in Intelligent Reasoning
 - [Pear2000](https://ftp.cs.ucla.edu/pub/stat_ser/r277.pdf) Bayesian Networks
 - [Pitchforth2013](https://www.journals.elsevier.com/expert-systems-with-applications) Expert Systems with Applications
