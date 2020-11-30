@@ -126,8 +126,14 @@ This section contains everything related to model criticism, inference diagnosis
 - [Gelman2013](http://www.stat.columbia.edu/~gelman/book/) Bayesian Data Analysis, third edition
 - [Vehtari2020](https://projecteuclid.org/euclid.ba/1593828229) Rank-Normalization, Folding, and Localization: An Improved Rˆ for Assessing Convergence of MCMC
 - [Lambert2020](https://arxiv.org/abs/2003.07900) R*: A robust MCMC convergence diagnostic with uncertainty using gradient-boosted machines
-Feel free to complete and/or correct any of these lists. [Pull requests](https://github.com/arranger1044/awesome-spn/pulls) are very welcome!
-culty.ucr.edu/~jflegal/Final_Thesis_twosided.pdf) Monte Carlo Standard Errors for Markov Chain 
+
+### Effective Sample Size
+
+- [Vehtari2020](https://projecteuclid.org/euclid.ba/1593828229) Rank-Normalization, Folding, and Localization: An Improved Rˆ for Assessing Convergence of MCMC
+
+### Monte Carlo Standart Errors
+
+- [Flegal2008](http://www.faculty.ucr.edu/~jflegal/Final_Thesis_twosided.pdf) Monte Carlo Standard Errors for Markov Chain 
 
 ## Information Criteria
 
