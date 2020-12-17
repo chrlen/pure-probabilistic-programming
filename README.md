@@ -157,6 +157,7 @@ This section contains everything related to model criticism, inference diagnosis
 ## Posterior Predictive Checks
 
 - [Guttman1967](https://rss.onlinelibrary.wiley.com/doi/10.1111/j.2517-6161.1967.tb00676.x) The Use of the Concept of a Future Observation in Goodness‐Of‐Fit Problems
+- [Rubin1980](https://www.jstor.org/stable/2240995?seq=1#metadata_info_tab_contents) Bayesianly justifiable and relevant frequency calculations for the applied statistician
 - [Meng1994](https://projecteuclid.org/download/pdf_1/euclid.aos/1176325622) Posterior predictive p-values
 - [Gelman1996](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.9951) Posterior Predictive Assessment of Model Fitness Via Realized Discrepancies
 - [Lewis1996](https://www.jstor.org/stable/24306040?seq=1#metadata_info_tab_contents) Comment on ‘Posterior predictive assessment of model fitness via realized discrepancies’
