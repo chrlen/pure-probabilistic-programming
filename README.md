@@ -116,11 +116,15 @@ This section contains everything related to model criticism, inference diagnosis
 
 ## Inference Diagnostics
 
+This section contains publications that focus on methodology for the diagnosis of inference algorithms.
+
 ### General
 
 - [Gelman1997](https://projecteuclid.org/euclid.aoap/1034625254) Weak convergence and optimal scaling of random walk Metropolis algorithms
 
 ### R Convergence Measures
+
+The R-Convergence Measures provide means to asses the convergence of Markov chain Monte-Carlo methods like Hamiltonian Monte-Carlo or NUTS.
 
 - [Gelman1992](https://projecteuclqid.org/euclid.ss/1177011136) Inference from Iterative Simulation Using Multiple Sequences
 - [Brooks1998](http://www.stat.columbia.edu/~gelman/research/published/brooksgelman2.pdf) General Methods for Monitoring Convergence of Iterative Simulations
@@ -133,11 +137,13 @@ This section contains everything related to model criticism, inference diagnosis
 
 - [Vehtari2020](https://projecteuclid.org/euclid.ba/1593828229) Rank-Normalization, Folding, and Localization: An Improved Rˆ for Assessing Convergence of MCMC
 
-### Monte Carlo Standart Errors
+### Monte Carlo Standard Errors
 
 - [Flegal2008](http://www.faculty.ucr.edu/~jflegal/Final_Thesis_twosided.pdf) Monte Carlo Standard Errors for Markov Chain 
 
 ## Information Criteria
+
+Information criteria are  
 
 - [Akaike1973](https://link.springer.com/chapter/10.1007/978-1-4612-1694-0_15) Information Theory and an Extension of the Maximum Likelihood Principle
 - [Stone1977](https://link.springer.com/article/10.1007/s11222-013-9416-2#ref-CR35) An asymptotic equivalence of choice of model cross-validation and Akaike’s criterion
@@ -155,6 +161,8 @@ This section contains everything related to model criticism, inference diagnosis
 - [Coupe2000](https://repub.eur.nl/pub/20452) Sensitivity Analysis of Decision-Theoretic Networks
 
 ## Posterior Predictive Checks
+
+Posterior predictive checks are based on the assumption that data sampled from a models posterior predictive distribution has to be similar to the data that has been observed from the actual process.
 
 - [Guttman1967](https://rss.onlinelibrary.wiley.com/doi/10.1111/j.2517-6161.1967.tb00676.x) The Use of the Concept of a Future Observation in Goodness‐Of‐Fit Problems
 - [Rubin1980](https://www.jstor.org/stable/2240995?seq=1#metadata_info_tab_contents) Bayesianly justifiable and relevant frequency calculations for the applied statistician
