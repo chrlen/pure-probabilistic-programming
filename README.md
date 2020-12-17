@@ -41,6 +41,7 @@ This section contains publications that introduce new languages or features for 
 - [DeRaedt2007](https://lirias.kuleuven.be/bitstream/123456789/146072/1/ijca) ProbLog: A probabilistic Prolog and its application in link discovery
 - [Laskey2007](https://www.sciencedirect.com/science/article/pii/S0004370207001312) MEBN: A language for first-order Bayesian knowledge bases
 - [Lunn2009](https://onlinelibrary.wiley.com/doi/10.1002/sim.3680) The Bugs Project: Evolution, Critique and Future Directions
+- [McCallum2009](https://papers.nips.cc/paper/2009/hash/847cc55b7032108eee6dd897f3bca8a5-Abstract.html) FACTORIE: Probabilistic Programming via Imperatively Defined Factor Graphs
 - [Hershey2012](https://arxiv.org/abs/1212.2991) Accelerating Inference: towards a full Language,Compiler and Hardware stack (Dimple)
 - [Goodman2012](https://arxiv.org/abs/1206.3255) Church: A Language for generative Models
 - [Mansingkha2014](https://arxiv.org/abs/1404.0099) Venture: a higher-order probabilistic programming platform with programmable inference
@@ -202,6 +203,7 @@ This section contains publications that use visualization for model criticism.
 - [Gabry2019](https://arxiv.org/abs/1709.01449) Visualization in Bayesian workflow
 
 ### Frameworks and libraries
+
 This section lists frameworks that provide model criticism functionality.
 
 - [Kumar2019](https://joss.theoj.org/papers/10.21105/joss.01143) ArviZ is a unified library for exploratory analysis of Bayesian models in Python
