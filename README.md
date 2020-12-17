@@ -37,6 +37,7 @@ This section contains publications that introduce new languages or features for 
 - [Gilks1992](https://www.cs.tufts.edu/~nr/cs257/archive/walter-gilks/bugs.pdf) A language and program for complex Bayesian modelling 
 - [Sheu1998](https://link.springer.com/article/10.3758/BF03200649) Simulation-based Bayesian inference using BUGS
 - [Kulkarni1999](https://ieeexplore.ieee.org/document/7299068) Picture: A Probabilistic Programming Language for Scene Perception
+- [Bishop2002](http://papers.neurips.cc/paper/2172-vibes-a-variational-inference-engine-for-bayesian-networks) VIBES: A variational inference engine for Bayesian networks
 - [Pfeffer2005](https://dash.harvard.edu/handle/1/25105000) The Design and Implementation of IBAL: A General-Purpose Probabilistic Language
 - [DeRaedt2007](https://lirias.kuleuven.be/bitstream/123456789/146072/1/ijca) ProbLog: A probabilistic Prolog and its application in link discovery
 - [Laskey2007](https://www.sciencedirect.com/science/article/pii/S0004370207001312) MEBN: A language for first-order Bayesian knowledge bases
