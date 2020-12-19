@@ -143,7 +143,7 @@ The R-Convergence Measures provide means to asses the convergence of Markov chai
 
 ## Information Criteria
 
-Information criteria are  
+Information criteria are   
 
 - [Akaike1973](https://link.springer.com/chapter/10.1007/978-1-4612-1694-0_15) Information Theory and an Extension of the Maximum Likelihood Principle
 - [Stone1977](https://link.springer.com/article/10.1007/s11222-013-9416-2#ref-CR35) An asymptotic equivalence of choice of model cross-validation and Akaike’s criterion
@@ -166,6 +166,7 @@ Posterior predictive checks are based on the assumption that data sampled from a
 
 - [Guttman1967](https://rss.onlinelibrary.wiley.com/doi/10.1111/j.2517-6161.1967.tb00676.x) The Use of the Concept of a Future Observation in Goodness‐Of‐Fit Problems
 - [Rubin1980](https://www.jstor.org/stable/2240995?seq=1#metadata_info_tab_contents) Bayesianly justifiable and relevant frequency calculations for the applied statistician
+- [Box1980](https://www.jstor.org/stable/pdf/2982063.pdf?refreqid=excelsior%3Ac864aee667b744c68e16057c73ba1336) Sampling and Bayes Inference in Scientific Modeling and Robustness
 - [Meng1994](https://projecteuclid.org/download/pdf_1/euclid.aos/1176325622) Posterior predictive p-values
 - [Gelman1996](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.9951) Posterior Predictive Assessment of Model Fitness Via Realized Discrepancies
 - [Lewis1996](https://www.jstor.org/stable/24306040?seq=1#metadata_info_tab_contents) Comment on ‘Posterior predictive assessment of model fitness via realized discrepancies’
