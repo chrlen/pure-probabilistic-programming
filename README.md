@@ -6,17 +6,32 @@ This repository is a collection of publications related to probabilistic program
 - It is inspired by the formidable [awesome-spn](https://github.com/arranger1044/awesome-spn).
 
 # Table of Contents
-1. [Probabilistic Programming](#probabilistic-programming)
-1. [Model Criticism](#model-criticism)
-1. [Probabilistic Modelling](#probabilistic-modelling)
-1. [Probabilistic Graphical Models](#probabilistic-graphical-models)
+ 1. [Probabilistic Modelling](#probabilistic-modelling) 
+    1. [Probabilistic Programming](#probabilistic-programming) 
+    1. [Bayesian Modelling](#bayesian-modelling)
+    1. [Probabilistic Graphical Models](#probabilistic-graphical-models)
 1. [Inference](#inference)
+    1. [Exact Inference](#exact-inference)
+    1. [Approximate Inference](#approximate-inference)
+    1. [Variational Inference](#variational-inference)
+1. [Model Criticism](#model-criticism)
+    1. [Inference Diagnostics](#inference-diagnostics)
+    1. [Information Criteria](#information-criteria)
+    1. [Sensitivity Analysis](#sensitivity-analysis)
+    1. [Posterior Predictive Checks](#posterior-predictive-checks)
+    1. [Scoring Rules](#scoring-rules)
+    1. [External Validation](#external-validation)
+    1. [Intepretability of Probabilistic Models](#interpretability-of-probabilistic-models)
+    1. [Explainability of Probabilistic Models](#explainability-of-probabilistic-models)
+    1. [Visualization](#visualization)
 
-# Probabilistic Programming
+# Probabilistic Modelling
 
-## Papers
+## Probabilistic Programming
 
-### General
+### Papers
+
+#### General
 
 This section contains papers that are generally related to probabilistic programming and don't have a more specific subsection (yet).
 
@@ -31,7 +46,7 @@ This section contains papers that are generally related to probabilistic program
 - [Anikwue2019](https://ieeexplore.ieee.org/abstract/document/8851053) Probabilistic Programming in Big Data
 - [Saad2019](https://dl.acm.org/doi/10.1145/3290350) Bayesian Synthesis of Probabilistic Programs for automatic Data Modeling
 
-### Languages
+#### Languages
 
 This section contains publications that introduce new languages or features for existing languages.
 
@@ -58,7 +73,7 @@ This section contains publications that introduce new languages or features for 
 - [CusumanoTower2019](https://dl.acm.org/doi/10.1145/3314221.3314642) Gen: a general-purpose probabilistic programming system with programmable inference 
 - [Piponi2020](https://www.semanticscholar.org/paper/Joint-Distributions-for-TensorFlow-Probability-Piponi-Moore/1a6d35c345887625b833358af06605b99c2307bd) Joint Distributions for TensorFlow Probability
 
-### Applications
+#### Applications
 
 Here we collect publications that apply probabilistic programming languages in active research.
 
@@ -75,18 +90,18 @@ Here we collect publications that apply probabilistic programming languages in a
 - [Brauner2020](https://www.medrxiv.org/content/10.1101/2020.05.28.20116129v4) The effectiveness of eight nonpharmaceutical interventions against COVID-19 in 41 countries (PyMC3)
 - [Papers using Infer.net](https://dotnet.github.io/infer/papers.html)
 
-## Books
+### Books
 This section collects books or longer publications that focus primarily or to a large extend on probabilistic programming languages.
 
 - [VanDeMeent2018](https://arxiv.org/abs/1809.10756) An Introduction to Probabilistic Programming
 - [Pilon2015](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) Probabilistic Programming and Bayesian Methods for Hackers
 - [Roy2011](http://scholar.google.de/scholar_url?url=https://dspace.mit.edu/bitstream/handle/1721.1/66463/756045048-MIT.pdf%3Bsequence%3D2&hl=de&sa=X&ei=hwCoX6q0DIqVmgGp67bQBA&scisig=AAGBfm2TUX0uuEQFWbFjG6PkP48ZWHSj-g&nossl=1&oi=scholarr()) Computability, inference and modeling inprobabilistic programming
 
-## Other Resources
+### Other Resources
 
 Here we collect media like talks and podcasts apart from official publications.
 
-### Talks
+#### Talks
 
 - David M. Blei - [Black Box Variational Inference](https://www.youtube.com/watch?v=-H2N4tVDK7I)
 - Michael Betancourt - [Some Bayesian Modeling Techniques in Stan](https://www.youtube.com/watch?v=VnNdhsm0rJQ) 
@@ -97,10 +112,137 @@ Here we collect media like talks and podcasts apart from official publications.
 - [StanCon](https://www.youtube.com/playlist?list=PLCrWEzJgSUqzI3goQEAKkDsHg72inmqbe)
 - [PyMC Developers / PyMCon](https://www.youtube.com/channel/UCZJsSAKJ5ViwL9-YMhYPwGg/videos)
 
-### Podcasts
+#### Podcasts
 
 - [The Talking Machines](https://www.thetalkingmachines.com/episodes/anglican-and-probabilistic-programming) ANGLICAN and Probabilistic Programming
 - [The Talking Machines](https://www.thetalkingmachines.com/episodes/probabilistic-programming-and-digital-humanities) Probabilistic Programming and Digital Humanities
+
+
+## Bayesian Modelling
+
+### Papers
+
+#### General
+
+- [Gelman2002](http://www.stat.columbia.edu/~gelman/research/published/p039-_o.pdf) Prior Distribution
+- [Gelman2004](http://www.stat.columbia.edu/~gelman/research/published/parameterization.pdf) Parameterization and Bayesian Modelling
+- [Skrondal2007](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.433.3721&rep=rep1&type=pdf) Latent Variable Modelling: A Survey
+- [Gelman2009](https://projecteuclid.org/euclid.ss/1263478375) Bayes, Jeffreys, Prior Distributions and the Philosophy of Statistics
+- [Kass2012](https://amstat.tandfonline.com/doi/abs/10.1080/01621459.1996.10477003) The Selection of Prior Distributions by Formal Rules/
+- [Kruschke2015](https://jkkweb.sitehost.iu.edu/articles/KruschkeVanpaemel2015.pdf) Bayesian Estimation in Hierarchical Models (Kruschke-style diagrams) 
+- [Gelman2017](https://arxiv.org/abs/1708.07487) The Prior can generally only be understood in the Context of the Likelihood
+
+### Books
+
+- [Gelman2013](http://www.stat.columbia.edu/~gelman/book/) Bayesian Data Analysis
+- [McElreath2015](https://xcelab.net/rm/statistical-rethinking/) Statistical Rethinking
+
+### Other Resources
+Here we collect media like talks and podcasts apart from official publications.
+
+- [Modern Statistical Workflow](https://khakieconomics.github.io/half_day_course/msw.html)
+- [Robust Statistical Workflow with RStan](https://mc-stan.org/users/documentation/case-studies/rstan_workflow.html)
+
+## Probabilistic Graphical Models
+
+### Papers
+- [Kinderman1980](https://www.tandfonline.com/doi/abs/10.1080/0022250X.1980.9989895) On the relation between Markov random fields and social networks
+- [Pearl1988](https://dl.acm.org/doi/book/10.5555/534975) Probabilistic Reasoning in Intelligent Reasoning
+- [Pear2000](https://ftp.cs.ucla.edu/pub/stat_ser/r277.pdf) Bayesian Networks
+- [Pitchforth2013](https://www.journals.elsevier.com/expert-systems-with-applications) Expert Systems with Applications
+- [Frey2003](https://arxiv.org/abs/1212.2486) Extending Factor Graphs so as to Unify Graphical Models
+- [Jordan2004](https://projecteuclid.org/euclid.ss/1089808279) Graphical Models
+
+### Books
+
+- [Cowel2006](https://www.springer.com/gp/book/9780387987675) Probabilistic Networks and Expert Systems 
+- [Bishop2006](https://dl.acm.org/doi/book/10.5555/1162264) Pattern Recognition and Machine Learning
+- [Wainright2008](https://people.eecs.berkeley.edu/~wainwrig/Papers/WaiJor08_FTML.pdf) Graphical Models, Exponential Families, and Variational Inference
+- [Darwiche2009](https://dl.acm.org/doi/book/10.5555/1534901) Modeling and Reasoning with Bayesian Networks 
+- [Koller2009](https://mitpress.mit.edu/books/probabilistic-graphical-models) Probabilistic Graphical Models: Principles and Techniques
+
+## Sum Product Networks
+
+- [Awesome SPN](https://github.com/arranger1044/awesome-spn)
+
+# Inference
+
+## Papers
+
+### General
+
+- [Romero2009](https://www.sciencedirect.com/science/article/pii/S0888613X08001606) Triangulation of Bayesian networks with recursive estimation of distribution algorithms
+- [Peyrard2018](https://arxiv.org/pdf/1506.08544.pdf) Exact or approximate inference in graphical models: why the choice is dictated by the treewidth, and how variable elimination can be exploited
+
+### Exact Inference
+This section contains publications that focus on or involve exact inference.
+
+- [Pearl1998](https://www.semanticscholar.org/paper/Probabilistic-reasoning-in-intelligent-systems-of-Pearl/70ef29e6f0ce082bb8a47fd85b9bfb7cc0f20c93) Probabilistic Reasoning in Intelligent Systems
+- [Copper1990](https://www.sciencedirect.com/science/article/abs/pii/000437029090060D) The Computational Complexity of Probabilistic Inference using Bayesian Belief Networks
+
+#### Evidence Propagation
+
+- [Lauritzen1988](https://www.jstor.org/stable/2345762?seq=1#metadata_info_tab_contents) Local Computations with Probabilities on Graphical Structures and Their Application to Expert Systems
+- [Jensen1990](https://www.scienceopen.com/document?vid=efd6b3e8-6daf-4acd-92d0-73d7ff0014f2) Bayesian updating in Causal Probabilistic Networks by local Computation
+    
+
+### Approximate Inference
+
+#### General
+
+- [Dagum1993](https://www.sciencedirect.com/science/article/abs/pii/000437029390036B) Approximating probabilistic inference in Bayesian belief networks is NP-hard
+- [Ng2000](https://papers.nips.cc/paper/1999/file/84f0f20482cde7e5eacaf7364a643d33-Paper.pdf) Approximate Inference Algorithms for two-layer Bayesian Networks
+- [Neil2003](https://projecteuclid.org/euclid.aos/1056562461) Slice Sampling
+- [Andrieu2010](https://www.stats.ox.ac.uk/~doucet/andrieu_doucet_holenstein_PMCMC.pdf) Particle Markov chain Monte Carlo methods
+- [Wellman2013](https://arxiv.org/abs/1302.6850) State-space Abstraction for Anytime Evaluation of Probabilistic Networks
+- [DuBois2014](http://proceedings.mlr.press/v33/dubois14.pdf) Approximate Slice Sampling for Bayesian Posterior Inference 
+- [Paige2014](https://arxiv.org/abs/1407.2864) Asynchronous Anytime Sequential Monte Carlo
+- [Naeseth2016](https://arxiv.org/pdf/1612.09162.pdf) High-dimensional Filtering using Nested Sequential Monte Carlo
+- [Crisan2017](https://arxiv.org/pdf/1308.1883.pdf) Nested particle filters for online parameter estimation in discrete–time state–space Markov models
+
+#### Importance Sampling
+
+- [Agapiou2017](https://arxiv.org/pdf/1511.06196.pdf) Importance Sampling: Intrinsic Dimension and Computational Cost
+
+#### Inference Compilation
+
+- [Paige2016]() Inference Networks for Sequential Monte Carlo in Graphical Models
+- [Le2017](https://arxiv.org/abs/1610.09900) Inference Compilation and Universal Probabilistic Programming
+
+#### Metropolis based Methods
+
+- [Metropolis1953](https://aip.scitation.org/doi/10.1063/1.1699114) Equation of State Calculations by Fast Computing Machines
+- [Robert2016](https://arxiv.org/pdf/1504.01896.pdf) The Metropolis–Hastings Algorithm
+
+#### Gibb's sampling
+
+- [Gilks1992](https://www.jstor.org/stable/2347565?origin=crossref&seq=1#metadata_info_tab_contents) Adaptive Rejection Sampling for Gibbs Sampling
+- [Jensen1995](https://www.sciencedirect.com/science/article/pii/S1071581985710294) Blocking Gibbs sampling in very large probabilistic expert systems
+- [Gelfand2000](http://www.stat.rutgers.edu/home/rongchen/papers/Gelfand2000.pdf) Gibbs Sampling
+
+#### Monte Carlo Methods
+- [Geman1983](https://ieeexplore.ieee.org/document/4767596) Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images
+- [Duane1987](https://www.sciencedirect.com/science/article/abs/pii/037026938791197X) Hybrid Monte Carlo
+- [Arouna2004](https://www.degruyter.com/view/journals/mcma/10/1/article-p1.xml) Adaptive Monte Carlo Method, A Variance Reduction Technique
+- [Hoffman2011](https://arxiv.org/abs/1111.4246) The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo
+- [Betancourt2017](https://arxiv.org/abs/1701.02434) A conceptual introduction to Hamiltonian Monte Carlo
+
+### Variational Inference
+- [Jordan1999](https://people.eecs.berkeley.edu/~jordan/papers/variational-intro.pdf) An Introduction to Variational Methods for Graphical Models
+- [Jaakkola1999]() Variational Probabilistic Inference and the QMR-DT Network
+- [Blei2018](https://arxiv.org/abs/1601.00670) Variational Inference: A Review for Statisticians
+- [Kucukelbir2017](https://www.jmlr.org/papers/volume18/16-107/16-107.pdf) Automatic Differentiation Variational Inference
+
+## Books
+
+- [Robert2000](https://www.springer.com/de/book/9780387212395) Monte Carlo Statistical Method
+- [Geyer2011](https://www.mcmchandbook.net/HandbookChapter1.pdf) Introduction to Markov Chain Monte Carlo
+
+## Other Resources
+
+### Blogs
+
+- [Richard McElreath's Blog](https://elevanth.org/blog/2017/11/28/build-a-better-markov-chain/) Markov Chains: Why Walk When You Can Flow?
 
 # Model Criticism
 
@@ -235,129 +377,3 @@ Here we collect media like talks and podcasts apart from official publications.
 
 - Aki Vehtari - [These are a few of my favorite inference diagnostics](https://www.youtube.com/watch?v=HKPm6txxxQM) 
 - Rob Zinkov - [A Tour of Model Checking techniques](https://www.youtube.com/watch?v=vfqPGGCpY6I)
-
-# Probabilistic Modelling
-
-## Papers
-
-### General
-
-- [Gelman2002](http://www.stat.columbia.edu/~gelman/research/published/p039-_o.pdf) Prior Distribution
-- [Gelman2004](http://www.stat.columbia.edu/~gelman/research/published/parameterization.pdf) Parameterization and Bayesian Modelling
-- [Skrondal2007](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.433.3721&rep=rep1&type=pdf) Latent Variable Modelling: A Survey
-- [Gelman2009](https://projecteuclid.org/euclid.ss/1263478375) Bayes, Jeffreys, Prior Distributions and the Philosophy of Statistics
-- [Kass2012](https://amstat.tandfonline.com/doi/abs/10.1080/01621459.1996.10477003) The Selection of Prior Distributions by Formal Rules/
-- [Kruschke2015](https://jkkweb.sitehost.iu.edu/articles/KruschkeVanpaemel2015.pdf) Bayesian Estimation in Hierarchical Models (Kruschke-style diagrams) 
-- [Gelman2017](https://arxiv.org/abs/1708.07487) The Prior can generally only be understood in the Context of the Likelihood
-
-## Books
-
-- [Gelman2013](http://www.stat.columbia.edu/~gelman/book/) Bayesian Data Analysis
-- [McElreath2015](https://xcelab.net/rm/statistical-rethinking/) Statistical Rethinking
-
-## Other Resources
-Here we collect media like talks and podcasts apart from official publications.
-
-- [Modern Statistical Workflow](https://khakieconomics.github.io/half_day_course/msw.html)
-- [Robust Statistical Workflow with RStan](https://mc-stan.org/users/documentation/case-studies/rstan_workflow.html)
-
-# Probabilistic Graphical Models
-
-## Papers
-- [Kinderman1980](https://www.tandfonline.com/doi/abs/10.1080/0022250X.1980.9989895) On the relation between Markov random fields and social networks
-- [Pearl1988](https://dl.acm.org/doi/book/10.5555/534975) Probabilistic Reasoning in Intelligent Reasoning
-- [Pear2000](https://ftp.cs.ucla.edu/pub/stat_ser/r277.pdf) Bayesian Networks
-- [Pitchforth2013](https://www.journals.elsevier.com/expert-systems-with-applications) Expert Systems with Applications
-- [Frey2003](https://arxiv.org/abs/1212.2486) Extending Factor Graphs so as to Unify Graphical Models
-- [Jordan2004](https://projecteuclid.org/euclid.ss/1089808279) Graphical Models
-
-## Sum Product Networks
-
-- [Awesome SPN](https://github.com/arranger1044/awesome-spn)
-
-## Books
-
-- [Cowel2006](https://www.springer.com/gp/book/9780387987675) Probabilistic Networks and Expert Systems 
-- [Bishop2006](https://dl.acm.org/doi/book/10.5555/1162264) Pattern Recognition and Machine Learning
-- [Wainright2008](https://people.eecs.berkeley.edu/~wainwrig/Papers/WaiJor08_FTML.pdf) Graphical Models, Exponential Families, and Variational Inference
-- [Darwiche2009](https://dl.acm.org/doi/book/10.5555/1534901) Modeling and Reasoning with Bayesian Networks 
-- [Koller2009](https://mitpress.mit.edu/books/probabilistic-graphical-models) Probabilistic Graphical Models: Principles and Techniques
-
-# Inference
-
-## Papers
-
-### General
-
-- [Romero2009](https://www.sciencedirect.com/science/article/pii/S0888613X08001606) Triangulation of Bayesian networks with recursive estimation of distribution algorithms
-- [Peyrard2018](https://arxiv.org/pdf/1506.08544.pdf) Exact or approximate inference in graphical models: why the choice is dictated by the treewidth, and how variable elimination can be exploited
-
-### Exact
-This section contains publications that focus on or involve exact inference.
-
-- [Pearl1998](https://www.semanticscholar.org/paper/Probabilistic-reasoning-in-intelligent-systems-of-Pearl/70ef29e6f0ce082bb8a47fd85b9bfb7cc0f20c93) Probabilistic Reasoning in Intelligent Systems
-- [Copper1990](https://www.sciencedirect.com/science/article/abs/pii/000437029090060D) The Computational Complexity of Probabilistic Inference using Bayesian Belief Networks
-
-#### Evidence Propagation
-
-- [Lauritzen1988](https://www.jstor.org/stable/2345762?seq=1#metadata_info_tab_contents) Local Computations with Probabilities on Graphical Structures and Their Application to Expert Systems
-- [Jensen1990](https://www.scienceopen.com/document?vid=efd6b3e8-6daf-4acd-92d0-73d7ff0014f2) Bayesian updating in Causal Probabilistic Networks by local Computation
-    
-
-### Approximate
-
-#### General
-
-- [Dagum1993](https://www.sciencedirect.com/science/article/abs/pii/000437029390036B) Approximating probabilistic inference in Bayesian belief networks is NP-hard
-- [Ng2000](https://papers.nips.cc/paper/1999/file/84f0f20482cde7e5eacaf7364a643d33-Paper.pdf) Approximate Inference Algorithms for two-layer Bayesian Networks
-- [Neil2003](https://projecteuclid.org/euclid.aos/1056562461) Slice Sampling
-- [Andrieu2010](https://www.stats.ox.ac.uk/~doucet/andrieu_doucet_holenstein_PMCMC.pdf) Particle Markov chain Monte Carlo methods
-- [Wellman2013](https://arxiv.org/abs/1302.6850) State-space Abstraction for Anytime Evaluation of Probabilistic Networks
-- [DuBois2014](http://proceedings.mlr.press/v33/dubois14.pdf) Approximate Slice Sampling for Bayesian Posterior Inference 
-- [Paige2014](https://arxiv.org/abs/1407.2864) Asynchronous Anytime Sequential Monte Carlo
-- [Naeseth2016](https://arxiv.org/pdf/1612.09162.pdf) High-dimensional Filtering using Nested Sequential Monte Carlo
-- [Crisan2017](https://arxiv.org/pdf/1308.1883.pdf) Nested particle filters for online parameter estimation in discrete–time state–space Markov models
-
-#### Importance Sampling
-
-- [Agapiou2017](https://arxiv.org/pdf/1511.06196.pdf) Importance Sampling: Intrinsic Dimension and Computational Cost
-
-#### Inference Compilation
-
-- [Paige2016]() Inference Networks for Sequential Monte Carlo in Graphical Models
-- [Le2017](https://arxiv.org/abs/1610.09900) Inference Compilation and Universal Probabilistic Programming
-
-#### Metropolis based Methods
-
-- [Metropolis1953](https://aip.scitation.org/doi/10.1063/1.1699114) Equation of State Calculations by Fast Computing Machines
-- [Robert2016](https://arxiv.org/pdf/1504.01896.pdf) The Metropolis–Hastings Algorithm
-
-#### Gibb's sampling
-
-- [Gilks1992](https://www.jstor.org/stable/2347565?origin=crossref&seq=1#metadata_info_tab_contents) Adaptive Rejection Sampling for Gibbs Sampling
-- [Jensen1995](https://www.sciencedirect.com/science/article/pii/S1071581985710294) Blocking Gibbs sampling in very large probabilistic expert systems
-- [Gelfand2000](http://www.stat.rutgers.edu/home/rongchen/papers/Gelfand2000.pdf) Gibbs Sampling
-
-#### Monte Carlo Methods
-- [Geman1983](https://ieeexplore.ieee.org/document/4767596) Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images
-- [Duane1987](https://www.sciencedirect.com/science/article/abs/pii/037026938791197X) Hybrid Monte Carlo
-- [Arouna2004](https://www.degruyter.com/view/journals/mcma/10/1/article-p1.xml) Adaptive Monte Carlo Method, A Variance Reduction Technique
-- [Hoffman2011](https://arxiv.org/abs/1111.4246) The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo
-- [Betancourt2017](https://arxiv.org/abs/1701.02434) A conceptual introduction to Hamiltonian Monte Carlo
-
-#### Variational Inference
-- [Jordan1999](https://people.eecs.berkeley.edu/~jordan/papers/variational-intro.pdf) An Introduction to Variational Methods for Graphical Models
-- [Jaakkola1999]() Variational Probabilistic Inference and the QMR-DT Network
-- [Blei2018](https://arxiv.org/abs/1601.00670) Variational Inference: A Review for Statisticians
-- [Kucukelbir2017](https://www.jmlr.org/papers/volume18/16-107/16-107.pdf) Automatic Differentiation Variational Inference
-
-## Books
-
-- [Robert2000](https://www.springer.com/de/book/9780387212395) Monte Carlo Statistical Method
-- [Geyer2011](https://www.mcmchandbook.net/HandbookChapter1.pdf) Introduction to Markov Chain Monte Carlo
-
-## Other Resources
-
-### Blogs
-
-- [Richard McElreath's Blog](https://elevanth.org/blog/2017/11/28/build-a-better-markov-chain/) Markov Chains: Why Walk When You Can Flow?
