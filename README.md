@@ -32,6 +32,7 @@ This section contains papers that are generally related to probabilistic program
 - [Saad2019](https://dl.acm.org/doi/10.1145/3290350) Bayesian Synthesis of Probabilistic Programs for automatic Data Modeling
 
 ### Languages
+
 This section contains publications that introduce new languages or features for existing languages.
 
 - [Gilks1992](https://www.cs.tufts.edu/~nr/cs257/archive/walter-gilks/bugs.pdf) A language and program for complex Bayesian modelling 
@@ -58,6 +59,7 @@ This section contains publications that introduce new languages or features for 
 - [Piponi2020](https://www.semanticscholar.org/paper/Joint-Distributions-for-TensorFlow-Probability-Piponi-Moore/1a6d35c345887625b833358af06605b99c2307bd) Joint Distributions for TensorFlow Probability
 
 ### Applications
+
 Here we collect publications that apply probabilistic programming languages in active research.
 
 - [Zhang2015](https://ieeexplore.ieee.org/abstract/document/7102752) Mixed Logical Inference and Probabilistic Planning for Robots in Unreliable Worlds
@@ -74,13 +76,14 @@ Here we collect publications that apply probabilistic programming languages in a
 - [Papers using Infer.net](https://dotnet.github.io/infer/papers.html)
 
 ## Books
-This section collects books or longer publications that focus primarily on probabilistic programming languages.
+This section collects books or longer publications that focus primarily or to a large extend on probabilistic programming languages.
 
 - [VanDeMeent2018](https://arxiv.org/abs/1809.10756) An Introduction to Probabilistic Programming
 - [Pilon2015](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) Probabilistic Programming and Bayesian Methods for Hackers
 - [Roy2011](http://scholar.google.de/scholar_url?url=https://dspace.mit.edu/bitstream/handle/1721.1/66463/756045048-MIT.pdf%3Bsequence%3D2&hl=de&sa=X&ei=hwCoX6q0DIqVmgGp67bQBA&scisig=AAGBfm2TUX0uuEQFWbFjG6PkP48ZWHSj-g&nossl=1&oi=scholarr()) Computability, inference and modeling inprobabilistic programming
 
 ## Other Resources
+
 Here we collect media like talks and podcasts apart from official publications.
 
 ### Talks
@@ -100,6 +103,7 @@ Here we collect media like talks and podcasts apart from official publications.
 - [The Talking Machines](https://www.thetalkingmachines.com/episodes/probabilistic-programming-and-digital-humanities) Probabilistic Programming and Digital Humanities
 
 # Model Criticism
+
 This section contains everything related to model criticism, inference diagnosis and everything that is about the assessment of model quality.
 
 ## General
@@ -162,7 +166,7 @@ Information criteria are
 
 ## Posterior Predictive Checks
 
-Posterior predictive checks are based on the assumption that data sampled from a models posterior predictive distribution has to be similar to the data that has been observed from the actual process.
+Posterior predictive checks are based on the assumption that data sampled from a models posterior predictive distribution has to be similar to the data that has been observed from the actual process. If the observations have a low probability under the posterior predictive distribution, the model may have issues.
 
 - [Guttman1967](https://rss.onlinelibrary.wiley.com/doi/10.1111/j.2517-6161.1967.tb00676.x) The Use of the Concept of a Future Observation in Goodness‐Of‐Fit Problems
 - [Rubin1980](https://www.jstor.org/stable/2240995?seq=1#metadata_info_tab_contents) Bayesianly justifiable and relevant frequency calculations for the applied statistician
@@ -335,7 +339,7 @@ This section contains publications that focus on or involve exact inference.
 - [Gelfand2000](http://www.stat.rutgers.edu/home/rongchen/papers/Gelfand2000.pdf) Gibbs Sampling
 
 #### Monte Carlo Methods
-
+- [Geman1983](https://ieeexplore.ieee.org/document/4767596) Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images
 - [Duane1987](https://www.sciencedirect.com/science/article/abs/pii/037026938791197X) Hybrid Monte Carlo
 - [Arouna2004](https://www.degruyter.com/view/journals/mcma/10/1/article-p1.xml) Adaptive Monte Carlo Method, A Variance Reduction Technique
 - [Hoffman2011](https://arxiv.org/abs/1111.4246) The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo
