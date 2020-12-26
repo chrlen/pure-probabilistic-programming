@@ -80,6 +80,7 @@ Here we collect publications that apply probabilistic programming languages in a
 - [Zhang2015](https://ieeexplore.ieee.org/abstract/document/7102752) Mixed Logical Inference and Probabilistic Planning for Robots in Unreliable Worlds
 - [Jacobs2016](https://www.sciencedirect.com/science/article/pii/S0140673615012246) Ovarian cancer screening and mortality in the UK Collaborative Trial of Ovarian Cancer Screening (UKCTOCS): a randomised controlled trial (STAN)
 - [Greiner2016](https://iopscience.iop.org/article/10.3847/2041-8205/827/2/L38) On The Fermi-GBM Event 0.4 s after GW150914 (PyMC3)
+- [Yoon2016] Talking with tact: Polite language as a balance between kindness and informativity
 - [Becker2017](https://www.nature.com/articles/nature22038?_ga=2.84803610.2002036390.1539216000-1369394852.1539216000) Therapeutic reduction of ataxin-2 extends lifespan and reduces pathology in TDP-43 mice (STAN)
 - [Miller2017](https://www.nature.com/articles/nn.4613.pdf?origin=ppub) Dorsal hippocampus contributes to model-based planning (STAN)
 - [Svenson2017](https://www.nature.com/articles/nmeth.4220) Power analysis of single-cell RNA-sequencing experiments (STAN)
