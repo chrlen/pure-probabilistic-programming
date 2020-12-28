@@ -24,6 +24,8 @@ This repository is a collection of publications related to probabilistic program
     1. [Intepretability of Probabilistic Models](#interpretability-of-probabilistic-models)
     1. [Explainability of Probabilistic Models](#explainability-of-probabilistic-models)
     1. [Visualization](#visualization)
+1. [Application](#application)
+
 
 # Probabilistic Modelling
 
@@ -72,24 +74,6 @@ This section contains publications that introduce new languages or features for 
 - [Kulkarni1999](https://ieeexplore.ieee.org/document/7299068) Picture: A Probabilistic Programming Language for Scene Perception
 - [Sheu1998](https://link.springer.com/article/10.3758/BF03200649) Simulation-based Bayesian inference using BUGS
 - [Gilks1992](https://www.cs.tufts.edu/~nr/cs257/archive/walter-gilks/bugs.pdf) A language and program for complex Bayesian modelling 
-
-#### Applications
-
-Here we collect publications that apply probabilistic programming languages in active research.
-
-- [Papers using Infer.net](https://dotnet.github.io/infer/papers.html)
-- [Brauner2020](https://www.medrxiv.org/content/10.1101/2020.05.28.20116129v4) The effectiveness of eight nonpharmaceutical interventions against COVID-19 in 41 countries (PyMC3)
-- [Dehning2020](https://science.sciencemag.org/content/369/6500/eabb9789/tab-article-info) Inferring change points in the spread of COVID-19 reveals the effectiveness of interventions (PyMC3) ([Talk at PyMCon 2020](https://www.youtube.com/watch?v=btHkSlePV5Q&feature=youtu.be))
-- [Baydin2019](https://arxiv.org/abs/1907.03382) Etalumis: Bringing Probabilistic Programming to Scientific Simulators at Scale
-- [Graham2018](https://www.nature.com/articles/s41586-018-0202-3) Seabirds Enhance Coral Reef Productivity (PyMC3)
-- [Kucukelbir2017](https://www.jmlr.org/papers/volume18/16-107/16-107.pdf) Automatic Differentiation Variational Inference (STAN)
-- [Svenson2017](https://www.nature.com/articles/nmeth.4220) Power analysis of single-cell RNA-sequencing experiments (STAN)
-- [Miller2017](https://www.nature.com/articles/nn.4613.pdf?origin=ppub) Dorsal hippocampus contributes to model-based planning (STAN)
-- [Becker2017](https://www.nature.com/articles/nature22038?_ga=2.84803610.2002036390.1539216000-1369394852.1539216000) Therapeutic reduction of ataxin-2 extends lifespan and reduces pathology in TDP-43 mice (STAN)
-- [Yoon2016] Talking with tact: Polite language as a balance between kindness and informativity
-- [Greiner2016](https://iopscience.iop.org/article/10.3847/2041-8205/827/2/L38) On The Fermi-GBM Event 0.4 s after GW150914 (PyMC3)
-- [Jacobs2016](https://www.sciencedirect.com/science/article/pii/S0140673615012246) Ovarian cancer screening and mortality in the UK Collaborative Trial of Ovarian Cancer Screening (UKCTOCS): a randomised controlled trial (STAN)
-- [Zhang2015](https://ieeexplore.ieee.org/abstract/document/7102752) Mixed Logical Inference and Probabilistic Planning for Robots in Unreliable Worlds
 
 ### Books
 This section collects books or longer publications that focus primarily or to a large extend on probabilistic programming languages.
@@ -381,3 +365,20 @@ Here we collect media like talks and podcasts apart from official publications.
 
 - Aki Vehtari - [These are a few of my favorite inference diagnostics](https://www.youtube.com/watch?v=HKPm6txxxQM) 
 - Rob Zinkov - [A Tour of Model Checking techniques](https://www.youtube.com/watch?v=vfqPGGCpY6I)
+
+# Application
+
+Here we collect publications that apply probabilistic programming languages in active research.
+
+- [Brauner2020](https://www.medrxiv.org/content/10.1101/2020.05.28.20116129v4) The effectiveness of eight nonpharmaceutical interventions against COVID-19 in 41 countries (PyMC3)
+- [Dehning2020](https://science.sciencemag.org/content/369/6500/eabb9789/tab-article-info) Inferring change points in the spread of COVID-19 reveals the effectiveness of interventions (PyMC3) ([Talk at PyMCon 2020](https://www.youtube.com/watch?v=btHkSlePV5Q&feature=youtu.be))
+- [Baydin2019](https://arxiv.org/abs/1907.03382) Etalumis: Bringing Probabilistic Programming to Scientific Simulators at Scale
+- [Graham2018](https://www.nature.com/articles/s41586-018-0202-3) Seabirds Enhance Coral Reef Productivity (PyMC3)
+- [Svenson2017](https://www.nature.com/articles/nmeth.4220) Power analysis of single-cell RNA-sequencing experiments (STAN)
+- [Miller2017](https://www.nature.com/articles/nn.4613.pdf?origin=ppub) Dorsal hippocampus contributes to model-based planning (STAN)
+- [Becker2017](https://www.nature.com/articles/nature22038?_ga=2.84803610.2002036390.1539216000-1369394852.1539216000) Therapeutic reduction of ataxin-2 extends lifespan and reduces pathology in TDP-43 mice (STAN)
+- [Yoon2016] Talking with tact: Polite language as a balance between kindness and informativity
+- [Greiner2016](https://iopscience.iop.org/article/10.3847/2041-8205/827/2/L38) On The Fermi-GBM Event 0.4 s after GW150914 (PyMC3)
+- [Jacobs2016](https://www.sciencedirect.com/science/article/pii/S0140673615012246) Ovarian cancer screening and mortality in the UK Collaborative Trial of Ovarian Cancer Screening (UKCTOCS): a randomised controlled trial (STAN)
+- [Zhang2015](https://ieeexplore.ieee.org/abstract/document/7102752) Mixed Logical Inference and Probabilistic Planning for Robots in Unreliable Worlds
+- [Papers using Infer.net](https://dotnet.github.io/infer/papers.html)
