@@ -46,6 +46,7 @@ This section contains papers that are generally related to probabilistic program
 - [Perov2016](https://link.springer.com/chapter/10.1007/978-3-319-41649-6_27) Automatic Sampler Discovery via Probabilistic Programming and Approximate Bayesian Computation
 - [Perov2015](https://arxiv.org/pdf/1606.00075.pdf) Applications of Probabilistic Programming
 - [Ghahramani2015](https://www.nature.com/articles/nature14541) Probabilistic machine learning and artificial intelligence
+- [Goodman2013](https://dl.acm.org/doi/10.1145/2480359.2429117) The Principles and Practice of Probabilistic Programming
 - [Freer2010](http://danroy.org/papers/FreerManRoy-NIPSMC-2010.pdf) When are probabilistic programs probably computationally tractable?
 
 #### Languages
@@ -70,6 +71,7 @@ This section contains publications that introduce new languages or features for 
 - [Laskey2007](https://www.sciencedirect.com/science/article/pii/S0004370207001312) MEBN: A language for first-order Bayesian knowledge bases
 - [DeRaedt2007](https://lirias.kuleuven.be/bitstream/123456789/146072/1/ijca) ProbLog: A probabilistic Prolog and its application in link discovery
 - [Pfeffer2005](https://dash.harvard.edu/handle/1/25105000) The Design and Implementation of IBAL: A General-Purpose Probabilistic Language
+- [Plummer2003](https://www.semanticscholar.org/paper/JAGS%3A-A-program-for-analysis-of-Bayesian-graphical-Plummer/a4a1cf47f43a6dc520053846101648196d26f18b) JAGS: A Program for Analysis of Bayesian Graphical Models using Gibbs Sampling
 - [Bishop2002](http://papers.neurips.cc/paper/2172-vibes-a-variational-inference-engine-for-bayesian-networks) VIBES: A variational inference engine for Bayesian networks
 - [Kulkarni1999](https://ieeexplore.ieee.org/document/7299068) Picture: A Probabilistic Programming Language for Scene Perception
 - [Sheu1998](https://link.springer.com/article/10.3758/BF03200649) Simulation-based Bayesian inference using BUGS
@@ -78,9 +80,10 @@ This section contains publications that introduce new languages or features for 
 ### Books
 This section collects books or longer publications that focus primarily or to a large extend on probabilistic programming languages.
 
-- [Roy2011](http://scholar.google.de/scholar_url?url=https://dspace.mit.edu/bitstream/handle/1721.1/66463/756045048-MIT.pdf%3Bsequence%3D2&hl=de&sa=X&ei=hwCoX6q0DIqVmgGp67bQBA&scisig=AAGBfm2TUX0uuEQFWbFjG6PkP48ZWHSj-g&nossl=1&oi=scholarr()) Computability, inference and modeling inprobabilistic programming
-- [Pilon2015](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) Probabilistic Programming and Bayesian Methods for Hackers
 - [VanDeMeent2018](https://arxiv.org/abs/1809.10756) An Introduction to Probabilistic Programming
+- [Pilon2015](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) Probabilistic Programming and Bayesian Methods for Hackers
+- [Goodman2014](http://dippl.org/) The Design and Implementation of Probabilistic Programming Languages
+- [Roy2011](http://scholar.google.de/scholar_url?url=https://dspace.mit.edu/bitstream/handle/1721.1/66463/756045048-MIT.pdf%3Bsequence%3D2&hl=de&sa=X&ei=hwCoX6q0DIqVmgGp67bQBA&scisig=AAGBfm2TUX0uuEQFWbFjG6PkP48ZWHSj-g&nossl=1&oi=scholarr()) Computability, Inference and Modeling in Probabilistic Programming
 
 ### Other Resources
 
@@ -144,7 +147,6 @@ Here we collect media like talks and podcasts apart from official publications.
 - [Darwiche2009](https://dl.acm.org/doi/book/10.5555/1534901) Modeling and Reasoning with Bayesian Networks 
 - [Wainright2008](https://people.eecs.berkeley.edu/~wainwrig/Papers/WaiJor08_FTML.pdf) Graphical Models, Exponential Families, and Variational Inference
 - [Bishop2006](https://dl.acm.org/doi/book/10.5555/1162264) Pattern Recognition and Machine Learning
-- [Cowel2006](https://www.springer.com/gp/book/9780387987675) Probabilistic Networks and Expert Systems 
 
 ## Sum Product Networks
 
@@ -368,6 +370,8 @@ Here we collect media like talks and podcasts apart from official publications.
 
 # Application
 
+## Papers
+
 Here we collect publications that apply probabilistic programming languages in active research.
 
 - [Brauner2020](https://www.medrxiv.org/content/10.1101/2020.05.28.20116129v4) The effectiveness of eight nonpharmaceutical interventions against COVID-19 in 41 countries (PyMC3)
@@ -382,3 +386,7 @@ Here we collect publications that apply probabilistic programming languages in a
 - [Jacobs2016](https://www.sciencedirect.com/science/article/pii/S0140673615012246) Ovarian cancer screening and mortality in the UK Collaborative Trial of Ovarian Cancer Screening (UKCTOCS): a randomised controlled trial (STAN)
 - [Zhang2015](https://ieeexplore.ieee.org/abstract/document/7102752) Mixed Logical Inference and Probabilistic Planning for Robots in Unreliable Worlds
 - [Papers using Infer.net](https://dotnet.github.io/infer/papers.html)
+
+# Books
+
+- [Cowel2006](https://www.springer.com/gp/book/9780387987675) Probabilistic Networks and Expert Systems 
