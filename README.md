@@ -6,7 +6,7 @@ This repository is a collection of publications related to probabilistic program
 - It is inspired by the formidable [awesome-spn](https://github.com/arranger1044/awesome-spn).
 
 # Table of Contents
- 1. [Probabilistic Modelling](#probabilistic-modelling) 
+ 1. [Building Models](#building-models) 
     1. [Probabilistic Programming](#probabilistic-programming) 
     1. [Bayesian Modelling](#bayesian-modelling)
     1. [Probabilistic Graphical Models](#probabilistic-graphical-models)
@@ -27,7 +27,7 @@ This repository is a collection of publications related to probabilistic program
 1. [Application](#application)
 
 
-# Probabilistic Modelling
+# Building Models 
 
 ## Probabilistic Programming
 
@@ -279,8 +279,6 @@ The R-Convergence Measures provide means to asses the convergence of Markov chai
 
 ## Information Criteria
 
-Information criteria are   
-
 - [Vehtari2015](https://arxiv.org/abs/1507.04544) Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC
 - [Gelman2013](https://link.springer.com/article/10.1007/s11222-013-9416-2) Understanding predictive information criteria for Bayesian models
 - [Watanabe2013](https://link.springer.com/article/10.1007/s11222-013-9416-2#ref-CR35) A widely applicable Bayesian information criterion
@@ -370,9 +368,9 @@ Here we collect media like talks and podcasts apart from official publications.
 
 # Application
 
-## Papers
+## Probabilistic Programming Languages
 
-Here we collect publications that apply probabilistic programming languages in active research.
+In this section we collect publications that use probabilistic programming languages is active research.
 
 - [Brauner2020](https://www.medrxiv.org/content/10.1101/2020.05.28.20116129v4) The effectiveness of eight nonpharmaceutical interventions against COVID-19 in 41 countries (PyMC3)
 - [Dehning2020](https://science.sciencemag.org/content/369/6500/eabb9789/tab-article-info) Inferring change points in the spread of COVID-19 reveals the effectiveness of interventions (PyMC3) ([Talk at PyMCon 2020](https://www.youtube.com/watch?v=btHkSlePV5Q&feature=youtu.be))
@@ -387,6 +385,13 @@ Here we collect publications that apply probabilistic programming languages in a
 - [Zhang2015](https://ieeexplore.ieee.org/abstract/document/7102752) Mixed Logical Inference and Probabilistic Planning for Robots in Unreliable Worlds
 - [Papers using Infer.net](https://dotnet.github.io/infer/papers.html)
 
-# Books
+## Expert Systems
 
 - [Cowel2006](https://www.springer.com/gp/book/9780387987675) Probabilistic Networks and Expert Systems 
+
+
+# Guide
+
+1. Stuff
+1. More Stuff
+1. Much more Stuff
