@@ -25,6 +25,7 @@ This repository is a collection of publications related to probabilistic program
     1. [Explainability of Probabilistic Models](#explainability-of-probabilistic-models)
     1. [Visualization](#visualization)
 1. [Application](#application)
+1. [Guide](#guide)
 
 
 # Building Models 
