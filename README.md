@@ -155,14 +155,12 @@ Here we collect media like talks and podcasts apart from official publications.
 
 # Inference
 
-## Papers
-
-### General
+## General
 
 - [Peyrard2018](https://arxiv.org/pdf/1506.08544.pdf) Exact or approximate inference in graphical models: why the choice is dictated by the treewidth, and how variable elimination can be exploited
 - [Romero2009](https://www.sciencedirect.com/science/article/pii/S0888613X08001606) Triangulation of Bayesian networks with recursive estimation of distribution algorithms
 
-### Exact Inference
+## Exact Inference
 This section contains publications that focus on or involve exact inference.
 
 - [Pearl1998](https://www.semanticscholar.org/paper/Probabilistic-reasoning-in-intelligent-systems-of-Pearl/70ef29e6f0ce082bb8a47fd85b9bfb7cc0f20c93) Probabilistic Reasoning in Intelligent Systems
@@ -173,9 +171,9 @@ This section contains publications that focus on or involve exact inference.
 - [Jensen1990](https://www.scienceopen.com/document?vid=efd6b3e8-6daf-4acd-92d0-73d7ff0014f2) Bayesian updating in Causal Probabilistic Networks by local Computation
 - [Lauritzen1988](https://www.jstor.org/stable/2345762?seq=1#metadata_info_tab_contents) Local Computations with Probabilities on Graphical Structures and Their Application to Expert Systems
     
-### Approximate Inference
+## Approximate Inference
 
-#### General
+### General
 
 - [Crisan2017](https://arxiv.org/pdf/1308.1883.pdf) Nested particle filters for online parameter estimation in discrete–time state–space Markov models
 - [Naeseth2016](https://arxiv.org/pdf/1612.09162.pdf) High-dimensional Filtering using Nested Sequential Monte Carlo
@@ -187,28 +185,30 @@ This section contains publications that focus on or involve exact inference.
 - [Ng2000](https://papers.nips.cc/paper/1999/file/84f0f20482cde7e5eacaf7364a643d33-Paper.pdf) Approximate Inference Algorithms for two-layer Bayesian Networks
 - [Dagum1993](https://www.sciencedirect.com/science/article/abs/pii/000437029390036B) Approximating probabilistic inference in Bayesian belief networks is NP-hard
 
-#### Importance Sampling
+### Importance Sampling
 
 - [Agapiou2017](https://arxiv.org/pdf/1511.06196.pdf) Importance Sampling: Intrinsic Dimension and Computational Cost
 
-#### Inference Compilation
+### Inference Compilation
 
 - [Le2017](https://arxiv.org/abs/1610.09900) Inference Compilation and Universal Probabilistic Programming
 - [Paige2016](https://arxiv.org/pdf/1602.06701.pdf) Inference Networks for Sequential Monte Carlo in Graphical Models
 
 
-#### Metropolis based Methods
+### Metropolis based Methods
 
 - [Robert2016](https://arxiv.org/pdf/1504.01896.pdf) The Metropolis–Hastings Algorithm
 - [Metropolis1953](https://aip.scitation.org/doi/10.1063/1.1699114) Equation of State Calculations by Fast Computing Machines
 
-#### Gibb's sampling
+### Gibb's sampling
 
 - [Gelfand2000](http://www.stat.rutgers.edu/home/rongchen/papers/Gelfand2000.pdf) Gibbs Sampling
 - [Jensen1995](https://www.sciencedirect.com/science/article/pii/S1071581985710294) Blocking Gibbs sampling in very large probabilistic expert systems
 - [Gilks1992](https://www.jstor.org/stable/2347565?origin=crossref&seq=1#metadata_info_tab_contents) Adaptive Rejection Sampling for Gibbs Sampling
 
-#### Monte Carlo Methods
+### Monte Carlo Methods
+
+#### Papers
 
 - [Betancourt2017](https://arxiv.org/abs/1701.02434) A conceptual introduction to Hamiltonian Monte Carlo
 - [Hoffman2011](https://arxiv.org/abs/1111.4246) The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo
@@ -216,23 +216,23 @@ This section contains publications that focus on or involve exact inference.
 - [Duane1987](https://www.sciencedirect.com/science/article/abs/pii/037026938791197X) Hybrid Monte Carlo
 - [Geman1983](https://ieeexplore.ieee.org/document/4767596) Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images
 
-### Variational Inference
+#### Books
+
+- [Geyer2011](https://www.mcmchandbook.net/HandbookChapter1.pdf) Introduction to Markov Chain Monte Carlo
+- [Robert2000](https://www.springer.com/de/book/9780387212395) Monte Carlo Statistical Method
+
+##### Other Resources
+
+###### Blogs
+
+- [Richard McElreath's Blog](https://elevanth.org/blog/2017/11/28/build-a-better-markov-chain/) Markov Chains: Why Walk When You Can Flow?
+
+## Variational Inference
 
 - [Blei2018](https://arxiv.org/abs/1601.00670) Variational Inference: A Review for Statisticians
 - [Kucukelbir2017](https://www.jmlr.org/papers/volume18/16-107/16-107.pdf) Automatic Differentiation Variational Inference
 - [Jaakkola1999](https://arxiv.org/pdf/1105.5462.pdf) Variational Probabilistic Inference and the QMR-DT Network
 - [Jordan1999](https://people.eecs.berkeley.edu/~jordan/papers/variational-intro.pdf) An Introduction to Variational Methods for Graphical Models
-
-## Books
-
-- [Geyer2011](https://www.mcmchandbook.net/HandbookChapter1.pdf) Introduction to Markov Chain Monte Carlo
-- [Robert2000](https://www.springer.com/de/book/9780387212395) Monte Carlo Statistical Method
-
-## Other Resources
-
-### Blogs
-
-- [Richard McElreath's Blog](https://elevanth.org/blog/2017/11/28/build-a-better-markov-chain/) Markov Chains: Why Walk When You Can Flow?
 
 # Model Criticism
 
