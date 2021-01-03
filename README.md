@@ -24,7 +24,7 @@ This repository is a collection of publications related to probabilistic program
     1. [Intepretability of Probabilistic Models](#interpretability-of-probabilistic-models)
     1. [Explainability of Probabilistic Models](#explainability-of-probabilistic-models)
     1. [Visualization](#visualization)
-1. [Application](#application)
+1. [Applications](#applications)
 1. [Guide](#guide)
 
 
@@ -147,6 +147,7 @@ Here we collect media like talks and podcasts apart from official publications.
 
 ### Books
 
+- [Korb2010](https://bayesian-intelligence.com/publications/bai/) Bayesian Artificial Intelligence
 - [Koller2009](https://mitpress.mit.edu/books/probabilistic-graphical-models) Probabilistic Graphical Models: Principles and Techniques
 - [Darwiche2009](https://dl.acm.org/doi/book/10.5555/1534901) Modeling and Reasoning with Bayesian Networks 
 - [Wainright2008](https://people.eecs.berkeley.edu/~wainwrig/Papers/WaiJor08_FTML.pdf) Graphical Models, Exponential Families, and Variational Inference
@@ -169,8 +170,14 @@ This section contains publications that focus on or involve exact inference.
 
 ### General
 
+#### Papers
+
 - [Pearl1998](https://www.semanticscholar.org/paper/Probabilistic-reasoning-in-intelligent-systems-of-Pearl/70ef29e6f0ce082bb8a47fd85b9bfb7cc0f20c93) Probabilistic Reasoning in Intelligent Systems
 - [Copper1990](https://www.sciencedirect.com/science/article/abs/pii/000437029090060D) The Computational Complexity of Probabilistic Inference using Bayesian Belief Networks
+
+#### Books
+
+- [Korb2010](https://bayesian-intelligence.com/publications/bai/) Bayesian Artificial Intelligence
 
 ### Evidence Propagation
 
@@ -397,7 +404,7 @@ This section lists frameworks that provide model criticism functionality.
 - [Kumar2019](https://joss.theoj.org/papers/10.21105/joss.01143) ArviZ is a unified library for exploratory analysis of Bayesian models in Python
 - [Bayesplot](https://mc-stan.org/bayesplot) is an R package providing an extensive library of plotting functions for use after fitting Bayesian models (typically with MCMC)
 
-# Application
+# Applications
 
 ## Probabilistic Programming Languages
 
@@ -426,3 +433,5 @@ In this section we collect publications that use probabilistic programming langu
 1. [Gelman2013](http://www.stat.columbia.edu/~gelman/book/) Bayesian Data Analysis
 1. [McElreath2015](https://xcelab.net/rm/statistical-rethinking/) Statistical Rethinking
 1. [Introduction to Bayesian Data Analysis and Stan](https://www.youtube.com/watch?v=T1gYvX5c2sM)
+1. [Blei2014b](http://www.cs.columbia.edu/~blei/papers/Blei2014b.pdf) Build, Compute, Critique, Repeat: Data Analysis with Latent Variable Models
+1. [Gabry2019](https://arxiv.org/abs/1709.01449) Visualization in Bayesian workflow (loo-pit-ppc)
