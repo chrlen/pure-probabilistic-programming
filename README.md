@@ -34,11 +34,11 @@ This repository is a collection of publications related to probabilistic program
 
 In this section we collect resources 
 
-### Papers
+### General
 
-#### General
+This section contains resources that are generally related to probabilistic programming and don't have a more specific subsection (yet).
 
-This section contains papers that are generally related to probabilistic programming and don't have a more specific subsection (yet).
+#### Papers
 
 - [Saad2019](https://dl.acm.org/doi/10.1145/3290350) Bayesian Synthesis of Probabilistic Programs for automatic Data Modeling
 - [Anikwue2019](https://ieeexplore.ieee.org/abstract/document/8851053) Probabilistic Programming in Big Data
@@ -52,7 +52,36 @@ This section contains papers that are generally related to probabilistic program
 - [Goodman2013](https://dl.acm.org/doi/10.1145/2480359.2429117) The Principles and Practice of Probabilistic Programming
 - [Freer2010](http://danroy.org/papers/FreerManRoy-NIPSMC-2010.pdf) When are probabilistic programs probably computationally tractable?
 
-#### Languages
+#### Books
+
+This section collects books or longer publications that focus primarily or to a large extend on probabilistic programming languages.
+
+- [VanDeMeent2018](https://arxiv.org/abs/1809.10756) An Introduction to Probabilistic Programming
+- [Pilon2015](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) Probabilistic Programming and Bayesian Methods for Hackers
+- [Goodman2014](http://dippl.org/) The Design and Implementation of Probabilistic Programming Languages
+- [Roy2011](http://scholar.google.de/scholar_url?url=https://dspace.mit.edu/bitstream/handle/1721.1/66463/756045048-MIT.pdf%3Bsequence%3D2&hl=de&sa=X&ei=hwCoX6q0DIqVmgGp67bQBA&scisig=AAGBfm2TUX0uuEQFWbFjG6PkP48ZWHSj-g&nossl=1&oi=scholarr()) Computability, Inference and Modeling in Probabilistic Programming
+
+#### Other Resources
+
+Here we collect media like talks and podcasts apart from official publications.
+
+##### Talks
+
+- [PyMC Developers / PyMCon](https://www.youtube.com/channel/UCZJsSAKJ5ViwL9-YMhYPwGg/videos)
+- [StanCon](https://www.youtube.com/playlist?list=PLCrWEzJgSUqzI3goQEAKkDsHg72inmqbe)
+- [Probprog Conference](https://www.youtube.com/channel/UCTFDb7aQY1ewBYwJJrpKp6Q) 
+- Frank Wood - [Inference Compilation](https://www.youtube.com/watch?v=jp3noyIYAbA)
+- Andrew Gelman - [Introduction to Bayesian Data Analysis and Stan](https://www.youtube.com/watch?v=T1gYvX5c2sM)
+- Michael Betancourt - [Scalable Bayesian Inference with Hamiltonian Monte Carlo](https://www.youtube.com/watch?v=VnNdhsm0rJQ)
+- Michael Betancourt - [Some Bayesian Modeling Techniques in Stan](https://www.youtube.com/watch?v=VnNdhsm0rJQ) 
+- David M. Blei - [Black Box Variational Inference](https://www.youtube.com/watch?v=-H2N4tVDK7I)
+
+##### Podcasts
+
+- [The Talking Machines](https://www.thetalkingmachines.com/episodes/anglican-and-probabilistic-programming) ANGLICAN and Probabilistic Programming
+- [The Talking Machines](https://www.thetalkingmachines.com/episodes/probabilistic-programming-and-digital-humanities) Probabilistic Programming and Digital Humanities
+
+### Languages
 
 This section contains publications that introduce new languages or features for existing languages.
 
@@ -80,39 +109,10 @@ This section contains publications that introduce new languages or features for 
 - [Sheu1998](https://link.springer.com/article/10.3758/BF03200649) Simulation-based Bayesian inference using BUGS
 - [Gilks1992](https://www.cs.tufts.edu/~nr/cs257/archive/walter-gilks/bugs.pdf) A language and program for complex Bayesian modelling 
 
-### Books
-This section collects books or longer publications that focus primarily or to a large extend on probabilistic programming languages.
-
-- [VanDeMeent2018](https://arxiv.org/abs/1809.10756) An Introduction to Probabilistic Programming
-- [Pilon2015](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) Probabilistic Programming and Bayesian Methods for Hackers
-- [Goodman2014](http://dippl.org/) The Design and Implementation of Probabilistic Programming Languages
-- [Roy2011](http://scholar.google.de/scholar_url?url=https://dspace.mit.edu/bitstream/handle/1721.1/66463/756045048-MIT.pdf%3Bsequence%3D2&hl=de&sa=X&ei=hwCoX6q0DIqVmgGp67bQBA&scisig=AAGBfm2TUX0uuEQFWbFjG6PkP48ZWHSj-g&nossl=1&oi=scholarr()) Computability, Inference and Modeling in Probabilistic Programming
-
-### Other Resources
-
-Here we collect media like talks and podcasts apart from official publications.
-
-#### Talks
-
-- [PyMC Developers / PyMCon](https://www.youtube.com/channel/UCZJsSAKJ5ViwL9-YMhYPwGg/videos)
-- [StanCon](https://www.youtube.com/playlist?list=PLCrWEzJgSUqzI3goQEAKkDsHg72inmqbe)
-- [Probprog Conference](https://www.youtube.com/channel/UCTFDb7aQY1ewBYwJJrpKp6Q) 
-- Frank Wood - [Inference Compilation](https://www.youtube.com/watch?v=jp3noyIYAbA)
-- Andrew Gelman - [Introduction to Bayesian Data Analysis and Stan](https://www.youtube.com/watch?v=T1gYvX5c2sM)
-- Michael Betancourt - [Scalable Bayesian Inference with Hamiltonian Monte Carlo](https://www.youtube.com/watch?v=VnNdhsm0rJQ)
-- Michael Betancourt - [Some Bayesian Modeling Techniques in Stan](https://www.youtube.com/watch?v=VnNdhsm0rJQ) 
-- David M. Blei - [Black Box Variational Inference](https://www.youtube.com/watch?v=-H2N4tVDK7I)
-
-#### Podcasts
-
-- [The Talking Machines](https://www.thetalkingmachines.com/episodes/anglican-and-probabilistic-programming) ANGLICAN and Probabilistic Programming
-- [The Talking Machines](https://www.thetalkingmachines.com/episodes/probabilistic-programming-and-digital-humanities) Probabilistic Programming and Digital Humanities
 
 ## Bayesian Modelling
 
 ### Papers
-
-#### General
 
 - [Gelman2017](https://arxiv.org/abs/1708.07487) The Prior can generally only be understood in the Context of the Likelihood
 - [Kruschke2015](https://jkkweb.sitehost.iu.edu/articles/KruschkeVanpaemel2015.pdf) Bayesian Estimation in Hierarchical Models (Kruschke-style diagrams) 
@@ -128,6 +128,7 @@ Here we collect media like talks and podcasts apart from official publications.
 - [Gelman2013](http://www.stat.columbia.edu/~gelman/book/) Bayesian Data Analysis
 
 ### Other Resources
+
 Here we collect media like talks and podcasts apart from official publications.
 
 - [Modern Statistical Workflow](https://khakieconomics.github.io/half_day_course/msw.html)
@@ -163,12 +164,15 @@ Here we collect media like talks and podcasts apart from official publications.
 - [Romero2009](https://www.sciencedirect.com/science/article/pii/S0888613X08001606) Triangulation of Bayesian networks with recursive estimation of distribution algorithms
 
 ## Exact Inference
+
 This section contains publications that focus on or involve exact inference.
+
+### General
 
 - [Pearl1998](https://www.semanticscholar.org/paper/Probabilistic-reasoning-in-intelligent-systems-of-Pearl/70ef29e6f0ce082bb8a47fd85b9bfb7cc0f20c93) Probabilistic Reasoning in Intelligent Systems
 - [Copper1990](https://www.sciencedirect.com/science/article/abs/pii/000437029090060D) The Computational Complexity of Probabilistic Inference using Bayesian Belief Networks
 
-#### Evidence Propagation
+### Evidence Propagation
 
 - [Jensen1990](https://www.scienceopen.com/document?vid=efd6b3e8-6daf-4acd-92d0-73d7ff0014f2) Bayesian updating in Causal Probabilistic Networks by local Computation
 - [Lauritzen1988](https://www.jstor.org/stable/2345762?seq=1#metadata_info_tab_contents) Local Computations with Probabilities on Graphical Structures and Their Application to Expert Systems
@@ -225,6 +229,8 @@ This section contains publications that focus on or involve exact inference.
 
 #### Other Resources
 
+Here we collect media like talks and podcasts apart from official publications.
+
 ##### Blogs
 
 - [Richard McElreath's Blog](https://elevanth.org/blog/2017/11/28/build-a-better-markov-chain/) Markov Chains: Why Walk When You Can Flow?
@@ -242,6 +248,8 @@ This section contains everything related to model criticism, inference diagnosis
 
 ## General
 
+### Papers
+
 - [Vehtari2019](https://arxiv.org/abs/1903.08008) Rank-normalization, folding, and localization: An improved Rˆ for assessing convergence of MCMC
 - [Seth2018](https://arxiv.org/aibs/1711.04674) Model Criticism in latent space 
 - [Lloyd2015](http://papers.nips.cc/paper/5657-statistical-model-criticism-using-kernel-two-sample-tests.pdf) Statistical Model Criticism using Kernel Two Sample Tests
@@ -253,13 +261,31 @@ This section contains everything related to model criticism, inference diagnosis
 - [Kass1995](https://www.jstor.org/stable/2291091?seq=1) Bayes Factors
 - [Oreskes1994](https://science.sciencemag.org/content/263/5147/641) Verification, Validation, and Confirmation of Numerical Models in the Earth Sciences
 
+### Other Resources
+
+Here we collect media like talks and podcasts apart from official publications.
+
+#### Talks
+
+- Rob Zinkov - [A Tour of Model Checking techniques](https://www.youtube.com/watch?v=vfqPGGCpY6I)
+
 ## Inference Diagnostics
 
 This section contains publications that focus on methodology for the diagnosis of inference algorithms.
 
 ### General
 
+#### Papers
+
 - [Gelman1997](https://projecteuclid.org/euclid.aoap/1034625254) Weak convergence and optimal scaling of random walk Metropolis algorithms
+
+#### Other Resources
+
+Here we collect media like talks and podcasts apart from official publications.
+
+##### Talks
+
+- Aki Vehtari - [These are a few of my favorite inference diagnostics](https://www.youtube.com/watch?v=HKPm6txxxQM) 
 
 ### R Convergence Measures
 
@@ -279,6 +305,15 @@ The R-Convergence Measures provide means to asses the convergence of Markov chai
 ### Monte Carlo Standard Errors
 
 - [Flegal2008](http://www.faculty.ucr.edu/~jflegal/Final_Thesis_twosided.pdf) Monte Carlo Standard Errors for Markov Chain 
+
+### Other Resources
+
+Here we collect media like talks and podcasts apart from official publications.
+
+#### Blogs
+
+- [Oriol Unraveled](https://oriolabril.github.io/oriol_unraveled/blog/)
+
 
 ## Information Criteria
 
@@ -345,29 +380,22 @@ With Implementation Via Sampling-Based Methods
 - [Timmer2017](https://www.sciencedirect.com/science/article/abs/pii/S0888613X16301402) A two-phase method for extracting explanatory arguments from Bayesian networks
 
 ## Visualization
-This section contains publications that use visualization for model criticism.
+
+This section contains resources that use visualization for model criticism.
+
+### General
 
 - [Gabry2019](https://arxiv.org/abs/1709.01449) Visualization in Bayesian workflow
-- [Kruschke2015](https://jkkweb.sitehost.iu.edu/articles/KruschkeVanpaemel2015.pdf) Bayesian Estimation in Hierarchical Models (Kruschke-style diagrams) 
+- [Kruschke2015](https://jkkweb.sitehost.iu.edu/articles/KruschkeVanpaemel2015.pdf) Bayesian Estimation in Hierarchical Models (Kruschke diagrams) 
 
-### Frameworks and libraries
+### Other Resources
+
+#### Frameworks and libraries
 
 This section lists frameworks that provide model criticism functionality.
 
 - [Kumar2019](https://joss.theoj.org/papers/10.21105/joss.01143) ArviZ is a unified library for exploratory analysis of Bayesian models in Python
 - [Bayesplot](https://mc-stan.org/bayesplot) is an R package providing an extensive library of plotting functions for use after fitting Bayesian models (typically with MCMC)
-
-## Other Resources
-Here we collect media like talks and podcasts apart from official publications.
-
-### Blogs
-
-- [Oriol Unraveled](https://oriolabril.github.io/oriol_unraveled/blog/)
-
-### Talks
-
-- Aki Vehtari - [These are a few of my favorite inference diagnostics](https://www.youtube.com/watch?v=HKPm6txxxQM) 
-- Rob Zinkov - [A Tour of Model Checking techniques](https://www.youtube.com/watch?v=vfqPGGCpY6I)
 
 # Application
 
@@ -395,6 +423,6 @@ In this section we collect publications that use probabilistic programming langu
 
 # Guide
 
-1. Stuff
-1. More Stuff
-1. Much more Stuff
+1. [Gelman2013](http://www.stat.columbia.edu/~gelman/book/) Bayesian Data Analysis
+1. [McElreath2015](https://xcelab.net/rm/statistical-rethinking/) Statistical Rethinking
+1. [Introduction to Bayesian Data Analysis and Stan](https://www.youtube.com/watch?v=T1gYvX5c2sM)
