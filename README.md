@@ -32,6 +32,8 @@ This repository is a collection of publications related to probabilistic program
 
 ## Probabilistic Programming
 
+In this section we collect resources 
+
 ### Papers
 
 #### General
@@ -221,9 +223,9 @@ This section contains publications that focus on or involve exact inference.
 - [Geyer2011](https://www.mcmchandbook.net/HandbookChapter1.pdf) Introduction to Markov Chain Monte Carlo
 - [Robert2000](https://www.springer.com/de/book/9780387212395) Monte Carlo Statistical Method
 
-##### Other Resources
+#### Other Resources
 
-###### Blogs
+##### Blogs
 
 - [Richard McElreath's Blog](https://elevanth.org/blog/2017/11/28/build-a-better-markov-chain/) Markov Chains: Why Walk When You Can Flow?
 
