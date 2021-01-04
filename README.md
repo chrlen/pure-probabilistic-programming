@@ -32,7 +32,7 @@ This repository is a collection of publications related to probabilistic program
 
 ## Probabilistic Programming
 
-In this section we collect resources 
+In this section we collect resources about probabilistic programming languages.
 
 ### General
 
@@ -112,6 +112,8 @@ This section contains publications that introduce new languages or features for 
 
 ## Bayesian Modelling
 
+In this section we collect resources that focus on Bayesian Modelling.
+
 ### Papers
 
 - [Gelman2017](https://arxiv.org/abs/1708.07487) The Prior can generally only be understood in the Context of the Likelihood
@@ -136,6 +138,8 @@ Here we collect media like talks and podcasts apart from official publications.
 
 ## Probabilistic Graphical Models
 
+In this section we gather resources about probabilistic graphical models.
+
 ### Papers
 
 - [Pitchforth2013](https://www.sciencedirect.com/science/article/abs/pii/S0957417412008810) A proposed validation framework for expert elicited Bayesian Networks
@@ -155,9 +159,13 @@ Here we collect media like talks and podcasts apart from official publications.
 
 ## Sum Product Networks
 
+For publications about sum product networks consider the repository Awesome-spn.
+
 - [Awesome SPN](https://github.com/arranger1044/awesome-spn)
 
 # Inference
+
+In this section we collect resources that contribute to methodology for inference in probabilistic models.
 
 ## General
 
@@ -166,7 +174,7 @@ Here we collect media like talks and podcasts apart from official publications.
 
 ## Exact Inference
 
-This section contains publications that focus on or involve exact inference.
+This section contains publications that focus on exact inference.
 
 ### General
 
@@ -185,6 +193,8 @@ This section contains publications that focus on or involve exact inference.
 - [Lauritzen1988](https://www.jstor.org/stable/2345762?seq=1#metadata_info_tab_contents) Local Computations with Probabilities on Graphical Structures and Their Application to Expert Systems
     
 ## Approximate Inference
+
+Here we collect resources about approximate inference.
 
 ### General
 
@@ -243,6 +253,8 @@ Here we collect media like talks and podcasts apart from official publications.
 - [Richard McElreath's Blog](https://elevanth.org/blog/2017/11/28/build-a-better-markov-chain/) Markov Chains: Why Walk When You Can Flow?
 
 ## Variational Inference
+
+This section focuses on variational inference.
 
 - [Blei2018](https://arxiv.org/abs/1601.00670) Variational Inference: A Review for Statisticians
 - [Kucukelbir2017](https://www.jmlr.org/papers/volume18/16-107/16-107.pdf) Automatic Differentiation Variational Inference
@@ -324,6 +336,8 @@ Here we collect media like talks and podcasts apart from official publications.
 
 ## Information Criteria
 
+This section contains publications that propose or analyse information criteria.
+
 - [Vehtari2015](https://arxiv.org/abs/1507.04544) Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC
 - [Gelman2013](https://link.springer.com/article/10.1007/s11222-013-9416-2) Understanding predictive information criteria for Bayesian models
 - [Watanabe2013](https://link.springer.com/article/10.1007/s11222-013-9416-2#ref-CR35) A widely applicable Bayesian information criterion
@@ -336,12 +350,14 @@ Here we collect media like talks and podcasts apart from official publications.
 
 ## Sensitivity Analysis
 
+Here we collect resources about using sensitivity analysis for model criticism. 
+
 - [Korb2010](https://bayesian-intelligence.com/publications/bai/) Bayesian Artificial Intelligence (Ch. 10)
 - [Coupe2000](https://repub.eur.nl/pub/20452) Sensitivity Analysis of Decision-Theoretic Networks
 
 ## Posterior Predictive Checks
 
-Posterior predictive checks are based on the assumption that data sampled from a models posterior predictive distribution has to be similar to the data that has been observed from the actual process. If the observations have a low probability under the posterior predictive distribution, the model may have issues.
+Here we gather the publications that contributed to the methodology of posterior predictive checks.
 
 - [Gabry2019](https://arxiv.org/abs/1709.01449) Visualization in Bayesian workflow (loo-pit-ppc)
 - [Kruschke2015](https://psycnet.apa.org/record/2012-18082-001) Bayesian estimation supersedes the t test.
@@ -359,29 +375,26 @@ Posterior predictive checks are based on the assumption that data sampled from a
 
 ## Scoring Rules
 
+This section collects publications about estimating predictive accuracy with scoring rules.
+
 - [Gneiting2007](https://apps.dtic.mil/sti/pdfs/ADA454828.pdf) Strictly Proper Scoring Rules, Prediction, and Estimation
 - [Cowell1993](https://ieeexplore.ieee.org/abstract/document/204903) Sequential Model Criticism in Probabilistic Expert Systems
-
-## Verification and Validation of Simulation Models
-
-- [Tsioptsias2016](https://drops.dagstuhl.de/opus/volltexte/2016/6518/pdf/OASIcs-SCOR-2016-6.pdf) Model Validation and Testing in Simulation: a Literature Review
-- [Sargent2015](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7408153) Use of the Interval Statistical Procedure for Simulation Model Validation 
-- [Sargent2011](https://link.springer.com/article/10.1057/jos.2012.20) Verification and Validation of Simulation Models
-- [Thacker2004](https://inis.iaea.org/search/search.aspx?orig_q=RN:36030870) Concepts of Model Verification and Validation
-- [Klejnen1995](https://www.sciencedirect.com/science/article/pii/037722179500132A) Statistical validation of simulation models
 
 ## External Validation
 
 - [Collins2014](https://pubmed.ncbi.nlm.nih.gov/24645774/) External Validation of Multivariable Prediction
 Models: A Systematic Review of Methodological Conduct and Reporting
-- [Gelfand1992](https://statistics.stanford.edu/research/model-determination-using-predictive-distributions-implementation-sampling-based-methods) Model Determination Using Predictive Distributions
-With Implementation Via Sampling-Based Methods
+- [Gelfand1992](https://statistics.stanford.edu/research/model-determination-using-predictive-distributions-implementation-sampling-based-methods) Model Determination Using Predictive Distributions With Implementation Via Sampling-Based Methods
 
 ## Interpretability of Probabilistic Models
+
+This section lists resources about the interpretability of probabilistic models.
 
 - [Chubarian2020](https://isaim2020.cs.ou.edu/papers/ISAIM2020_Chubarian_Turan.pdf) Interpretability of Bayesian Network Classifiers: OBDD Approximation and Polynomial Threshold Functions
 
 ## Explainability of Probabilistic Models
+
+Here we collect publications that focus on the explainability of of probabilistic models.
 
 - [Shih2018](https://arxiv.org/pdf/1805.03364.pdf) A Symbolic Approach to Explaining Bayesian Network Classifiers
 - [Timmer2017](https://www.sciencedirect.com/science/article/abs/pii/S0888613X16301402) A two-phase method for extracting explanatory arguments from Bayesian networks
@@ -408,7 +421,7 @@ This section lists frameworks that provide model criticism functionality.
 
 ## Probabilistic Programming Languages
 
-In this section we collect publications that use probabilistic programming languages is active research.
+In this section we collect publications that apply probabilistic programming languages is active research.
 
 - [Brauner2020](https://www.medrxiv.org/content/10.1101/2020.05.28.20116129v4) The effectiveness of eight nonpharmaceutical interventions against COVID-19 in 41 countries (PyMC3)
 - [Dehning2020](https://science.sciencemag.org/content/369/6500/eabb9789/tab-article-info) Inferring change points in the spread of COVID-19 reveals the effectiveness of interventions (PyMC3) ([Talk at PyMCon 2020](https://www.youtube.com/watch?v=btHkSlePV5Q&feature=youtu.be))
@@ -426,7 +439,6 @@ In this section we collect publications that use probabilistic programming langu
 ## Expert Systems
 
 - [Cowel2006](https://www.springer.com/gp/book/9780387987675) Probabilistic Networks and Expert Systems 
-
 
 # Guide
 
